@@ -1,0 +1,82 @@
+[
+     {
+          "App": "APP1-a80",
+          "Provider": "./JSON-ApproachGKP-7GG/ProvidersGKP50-10.json",
+          "TimeList": [
+               207,
+               211,
+               217,
+               218,
+               214,
+               229,
+               220,
+               220,
+               214,
+               209
+          ]
+     },
+     {
+          "App": "APP1-a82",
+          "Provider": "./JSON-ApproachGKP-7GG/ProvidersGKP50-10.json",
+          "TimeList": [
+               227,
+               220,
+               239,
+               222,
+               225,
+               238,
+               243,
+               230,
+               225,
+               215
+          ]
+     },
+     {
+          "App": "APP1-a84",
+          "Provider": "./JSON-ApproachGKP-7GG/ProvidersGKP50-10.json",
+          "TimeList": [
+               217,
+               221,
+               238,
+               229,
+               228,
+               224,
+               260,
+               247,
+               294,
+               294
+          ]
+     },
+     {
+          "App": "APP1-a86",
+          "Provider": "./JSON-ApproachGKP-7GG/ProvidersGKP50-10.json",
+          "TimeList": [
+               308,
+               302,
+               305,
+               326,
+               220,
+               241,
+               237,
+               243,
+               256,
+               285
+          ]
+     },
+     {
+          "App": "APP1-a88",
+          "Provider": "./JSON-ApproachGKP-7GG/ProvidersGKP50-10.json",
+          "TimeList": [
+               280,
+               237,
+               286,
+               286,
+               257,
+               229,
+               299,
+               241,
+               239,
+               245
+          ]
+     }
+]
