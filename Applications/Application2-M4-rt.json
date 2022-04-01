@@ -1,0 +1,493 @@
+[{ "app": "APP2-rt4",
+   "cost": 1000,
+   "availability": 92,
+   "responseTime": 4,
+   "weights":[0.4,0.35,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS12",
+      "quota": 0.05,
+      "services":[{
+         "nameSr": "MS12-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":200}]
+       },
+       {
+         "nameSr": "MS12-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS12-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS22",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS22-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":200}]
+       },
+       {
+         "nameSr": "MS22-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS22-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS32",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS32-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":300}]
+       },
+       {
+         "nameSr": "MS32-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS32-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS42",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS42-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS42-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS42-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+},
+{ "app": "APP2-rt6",
+   "cost": 1000,
+   "availability": 92,
+   "responseTime": 6,
+   "weights":[0.4,0.35,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS12",
+      "quota": 0.05,
+      "services":[{
+         "nameSr": "MS12-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":200}]
+       },
+       {
+         "nameSr": "MS12-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS12-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS22",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS22-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":200}]
+       },
+       {
+         "nameSr": "MS22-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS22-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS32",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS32-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":300}]
+       },
+       {
+         "nameSr": "MS32-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS32-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS42",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS42-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS42-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS42-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+},
+{ "app": "APP2-rt8",
+   "cost": 1000,
+   "availability": 92,
+   "responseTime": 8,
+   "weights":[0.4,0.35,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS12",
+      "quota": 0.05,
+      "services":[{
+         "nameSr": "MS12-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":200}]
+       },
+       {
+         "nameSr": "MS12-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS12-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS22",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS22-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":200}]
+       },
+       {
+         "nameSr": "MS22-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS22-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS32",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS32-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":300}]
+       },
+       {
+         "nameSr": "MS32-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS32-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS42",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS42-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS42-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS42-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+},
+{ "app": "APP2-rt10",
+   "cost": 1000,
+   "availability": 92,
+   "responseTime": 10,
+   "weights":[0.4,0.35,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS12",
+      "quota": 0.05,
+      "services":[{
+         "nameSr": "MS12-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":200}]
+       },
+       {
+         "nameSr": "MS12-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS12-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS22",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS22-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":200}]
+       },
+       {
+         "nameSr": "MS22-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS22-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS32",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS32-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":300}]
+       },
+       {
+         "nameSr": "MS32-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS32-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS42",
+        "quota": 0.05,
+        "services":[{
+         "nameSr": "MS42-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS42-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS42-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+}
+]

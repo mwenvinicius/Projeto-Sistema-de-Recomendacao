@@ -23,7 +23,7 @@ for Path, SubPastas, Arquivos in os.walk(Path):
             NewProviders.append(String)
 
 print(Aplications)
-print(Providers)
-print(ResultsData)
-print(MonitoringData)
-print(NewProviders)
+#print(Providers)
+#print(ResultsData)
+#print(MonitoringData)
+#print(NewProviders)
