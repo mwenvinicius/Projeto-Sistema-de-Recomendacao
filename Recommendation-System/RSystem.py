@@ -1,8 +1,7 @@
 # Autor: Vinícius Dias Batista.
 # Data: 01/04/2022
 import os
-
-Path = ""
+Path = os.getcwd()
 Aplications = []
 Providers = []
 ResultsData = []
@@ -28,11 +27,3 @@ print(Providers)
 print(ResultsData)
 print(MonitoringData)
 print(NewProviders)
-
-# Files = os.listdir(Path)
-# Files = [f for f in os.listdir(Path) if os.path.isfile(os.path.join(Path,f))]
-# print(Files)
-# from os.path import isfile, join
-# Path = '/home/viniciusdiasb/Documentos/Recommendation-System'
-# Files = listdir(Path)
-# Caminho = "/home/viniciusdiasb/Documentos/Recommendatio-System"
