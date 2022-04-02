@@ -1,0 +1,2242 @@
+[
+     {
+          "provider": "P0",
+          "servicesClass": [
+               {
+                    "nameCl": "compute-C1",
+                    "services": [
+                         {
+                              "nameSer": "S0-C1-P0",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 510
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 37
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C1-P0",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 919
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 36
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C1-P0",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 709
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 31
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C1-P0",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 737
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 26
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C1-P0",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 649
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 31
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "storage-C2",
+                    "services": [
+                         {
+                              "nameSer": "S0-C2-P0",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 92,
+                                        "cost": 26
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C2-P0",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 28
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C2-P0",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 18
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C2-P0",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 92,
+                                        "cost": 31
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C2-P0",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 92,
+                                        "cost": 39
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "database-C3",
+                    "services": [
+                         {
+                              "nameSer": "S0-C3-P0",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 39
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C3-P0",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 32
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C3-P0",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 14
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C3-P0",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 92,
+                                        "cost": 14
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C3-P0",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 16
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     },
+     {
+          "provider": "P1",
+          "servicesClass": [
+               {
+                    "nameCl": "compute-C1",
+                    "services": [
+                         {
+                              "nameSer": "S0-C1-P1",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 813
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 38
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C1-P1",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 352
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 12
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C1-P1",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 734
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 12
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C1-P1",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 534
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 25
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C1-P1",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 32,
+                                        "HD": 836
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 94,
+                                        "cost": 33
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "storage-C2",
+                    "services": [
+                         {
+                              "nameSer": "S0-C2-P1",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 14
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C2-P1",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 28
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C2-P1",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 33
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C2-P1",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 16
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C2-P1",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 11
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "database-C3",
+                    "services": [
+                         {
+                              "nameSer": "S0-C3-P1",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 94,
+                                        "cost": 19
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C3-P1",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 21
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C3-P1",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 16
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C3-P1",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 28
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C3-P1",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 28
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     },
+     {
+          "provider": "P2",
+          "servicesClass": [
+               {
+                    "nameCl": "compute-C1",
+                    "services": [
+                         {
+                              "nameSer": "S0-C1-P2",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 350
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 13
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C1-P2",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 807
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 94,
+                                        "cost": 31
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C1-P2",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 32,
+                                        "HD": 752
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 16
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C1-P2",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 739
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 17
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C1-P2",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 797
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 26
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "storage-C2",
+                    "services": [
+                         {
+                              "nameSer": "S0-C2-P2",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 23
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C2-P2",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 25
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C2-P2",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 25
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C2-P2",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 22
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C2-P2",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 24
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "database-C3",
+                    "services": [
+                         {
+                              "nameSer": "S0-C3-P2",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 26
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C3-P2",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 36
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C3-P2",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 39
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C3-P2",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 31
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C3-P2",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 92,
+                                        "cost": 37
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     },
+     {
+          "provider": "P3",
+          "servicesClass": [
+               {
+                    "nameCl": "compute-C1",
+                    "services": [
+                         {
+                              "nameSer": "S0-C1-P3",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 779
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 39
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C1-P3",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 816
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 92,
+                                        "cost": 36
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C1-P3",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 1000
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 31
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C1-P3",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 8,
+                                        "RAM": 32,
+                                        "HD": 618
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 25
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C1-P3",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 768
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 29
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "storage-C2",
+                    "services": [
+                         {
+                              "nameSer": "S0-C2-P3",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 30
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C2-P3",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 15
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C2-P3",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 33
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C2-P3",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 37
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C2-P3",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 12
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "database-C3",
+                    "services": [
+                         {
+                              "nameSer": "S0-C3-P3",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 30
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C3-P3",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 92,
+                                        "cost": 31
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C3-P3",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 33
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C3-P3",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 22
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C3-P3",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 94,
+                                        "cost": 12
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     },
+     {
+          "provider": "P4",
+          "servicesClass": [
+               {
+                    "nameCl": "compute-C1",
+                    "services": [
+                         {
+                              "nameSer": "S0-C1-P4",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 768
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 39
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C1-P4",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 908
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 27
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C1-P4",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 466
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 30
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C1-P4",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 767
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 39
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C1-P4",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 962
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 32
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "storage-C2",
+                    "services": [
+                         {
+                              "nameSer": "S0-C2-P4",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 23
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C2-P4",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 16
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C2-P4",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 24
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C2-P4",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 37
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C2-P4",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 26
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "database-C3",
+                    "services": [
+                         {
+                              "nameSer": "S0-C3-P4",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 34
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C3-P4",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 18
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C3-P4",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 21
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C3-P4",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 36
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C3-P4",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 25
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     },
+     {
+          "provider": "P5",
+          "servicesClass": [
+               {
+                    "nameCl": "compute-C1",
+                    "services": [
+                         {
+                              "nameSer": "S0-C1-P5",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 447
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 38
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C1-P5",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 713
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 25
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C1-P5",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 32,
+                                        "HD": 865
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 15
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C1-P5",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 32,
+                                        "HD": 963
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 20
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C1-P5",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 867
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 11
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "storage-C2",
+                    "services": [
+                         {
+                              "nameSer": "S0-C2-P5",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 36
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C2-P5",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 31
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C2-P5",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 32
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C2-P5",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 12
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C2-P5",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 94,
+                                        "cost": 22
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "database-C3",
+                    "services": [
+                         {
+                              "nameSer": "S0-C3-P5",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 21
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C3-P5",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 22
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C3-P5",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 92,
+                                        "cost": 17
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C3-P5",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 19
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C3-P5",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 13
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     },
+     {
+          "provider": "P6",
+          "servicesClass": [
+               {
+                    "nameCl": "compute-C1",
+                    "services": [
+                         {
+                              "nameSer": "S0-C1-P6",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 693
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 39
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C1-P6",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 812
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 94,
+                                        "cost": 39
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C1-P6",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 534
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 18
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C1-P6",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 463
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 29
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C1-P6",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i7",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 535
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 15
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "storage-C2",
+                    "services": [
+                         {
+                              "nameSer": "S0-C2-P6",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 33
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C2-P6",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 19
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C2-P6",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 37
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C2-P6",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 94,
+                                        "cost": 12
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C2-P6",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 16
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "database-C3",
+                    "services": [
+                         {
+                              "nameSer": "S0-C3-P6",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 33
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C3-P6",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 19
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C3-P6",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 29
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C3-P6",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 11
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C3-P6",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 12
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     },
+     {
+          "provider": "P7",
+          "servicesClass": [
+               {
+                    "nameCl": "compute-C1",
+                    "services": [
+                         {
+                              "nameSer": "S0-C1-P7",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 8,
+                                        "HD": 838
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 98,
+                                        "cost": 16
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C1-P7",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 16,
+                                        "RAM": 32,
+                                        "HD": 722
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 13
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C1-P7",
+                              "functionality": "for deploying and scaling web applications",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 32,
+                                        "HD": 668
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 23
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C1-P7",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 8,
+                                        "HD": 797
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 38
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C1-P7",
+                              "functionality": "instantiate virtual machines",
+                              "features": [],
+                              "capabilities": [
+                                   {
+                                        "CPU": "i5",
+                                        "Core": 8,
+                                        "RAM": 32,
+                                        "HD": 880
+                                   }
+                              ],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 95,
+                                        "cost": 14
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "storage-C2",
+                    "services": [
+                         {
+                              "nameSer": "S0-C2-P7",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 2,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 21
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C2-P7",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 5,
+                                        "delay": 2,
+                                        "availability": 100,
+                                        "cost": 24
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C2-P7",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 34
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C2-P7",
+                              "functionality": "persistent block storage volumes",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 18
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C2-P7",
+                              "functionality": "object storage",
+                              "features": [
+                                   "stores data",
+                                   "retrives data"
+                              ],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 97,
+                                        "cost": 15
+                                   }
+                              ]
+                         }
+                    ]
+               },
+               {
+                    "nameCl": "database-C3",
+                    "services": [
+                         {
+                              "nameSer": "S0-C3-P7",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 8,
+                                        "delay": 2,
+                                        "availability": 94,
+                                        "cost": 19
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S1-C3-P7",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 4,
+                                        "delay": 2,
+                                        "availability": 91,
+                                        "cost": 16
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S2-C3-P7",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 7,
+                                        "delay": 2,
+                                        "availability": 96,
+                                        "cost": 24
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S3-C3-P7",
+                              "functionality": "Relational Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 6,
+                                        "delay": 2,
+                                        "availability": 93,
+                                        "cost": 34
+                                   }
+                              ]
+                         },
+                         {
+                              "nameSer": "S4-C3-P7",
+                              "functionality": "NoSQL Database",
+                              "features": [],
+                              "capabilities": [],
+                              "userRequirements": [
+                                   {
+                                        "executionTime": 3,
+                                        "delay": 2,
+                                        "availability": 99,
+                                        "cost": 20
+                                   }
+                              ]
+                         }
+                    ]
+               }
+          ]
+     }
+]

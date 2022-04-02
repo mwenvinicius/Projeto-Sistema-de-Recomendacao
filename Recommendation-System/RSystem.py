@@ -22,7 +22,9 @@ for Path, SubPastas, Arquivos in os.walk(Path):
         elif("NewProviders" in String):
             NewProviders.append(String)
 
-print(Aplications)
+print(Path)
+print(os.path.abspath(os.getcwd()))
+# print(Aplications)
 #print(Providers)
 #print(ResultsData)
 #print(MonitoringData)
