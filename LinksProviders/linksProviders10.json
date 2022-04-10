@@ -1,0 +1,632 @@
+[
+     {
+          "out": "P0",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P0",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P0",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P0",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P0",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P0",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P0",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 10
+     },
+     {
+          "out": "P0",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P0",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 5
+     },
+     {
+          "out": "P1",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P1",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 10
+     },
+     {
+          "out": "P1",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P1",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P1",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P1",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P1",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P1",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P1",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 8
+     },
+     {
+          "out": "P2",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P2",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 10
+     },
+     {
+          "out": "P2",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P2",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P2",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P2",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P2",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 5
+     },
+     {
+          "out": "P2",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P2",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P3",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P3",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P3",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P3",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P3",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P3",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P3",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P3",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P3",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 5
+     },
+     {
+          "out": "P4",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P4",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P4",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P4",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P4",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P4",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P4",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P4",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 8
+     },
+     {
+          "out": "P4",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 10
+     },
+     {
+          "out": "P5",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P5",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P5",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P5",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P5",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P5",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P5",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P5",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P5",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P6",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P6",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P6",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P6",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P6",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P6",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P6",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P6",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P6",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P7",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 10
+     },
+     {
+          "out": "P7",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P7",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 5
+     },
+     {
+          "out": "P7",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 9
+     },
+     {
+          "out": "P7",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P7",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P7",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P7",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 5
+     },
+     {
+          "out": "P7",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P8",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P8",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P8",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P8",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P8",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 8
+     },
+     {
+          "out": "P8",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 2
+     },
+     {
+          "out": "P8",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P8",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 5
+     },
+     {
+          "out": "P8",
+          "in": "P9",
+          "availability": 100,
+          "delay": 2,
+          "cost": 8
+     },
+     {
+          "out": "P9",
+          "in": "P0",
+          "availability": 100,
+          "delay": 2,
+          "cost": 5
+     },
+     {
+          "out": "P9",
+          "in": "P1",
+          "availability": 100,
+          "delay": 2,
+          "cost": 8
+     },
+     {
+          "out": "P9",
+          "in": "P2",
+          "availability": 100,
+          "delay": 2,
+          "cost": 4
+     },
+     {
+          "out": "P9",
+          "in": "P3",
+          "availability": 100,
+          "delay": 2,
+          "cost": 5
+     },
+     {
+          "out": "P9",
+          "in": "P4",
+          "availability": 100,
+          "delay": 2,
+          "cost": 10
+     },
+     {
+          "out": "P9",
+          "in": "P5",
+          "availability": 100,
+          "delay": 2,
+          "cost": 7
+     },
+     {
+          "out": "P9",
+          "in": "P6",
+          "availability": 100,
+          "delay": 2,
+          "cost": 6
+     },
+     {
+          "out": "P9",
+          "in": "P7",
+          "availability": 100,
+          "delay": 2,
+          "cost": 3
+     },
+     {
+          "out": "P9",
+          "in": "P8",
+          "availability": 100,
+          "delay": 2,
+          "cost": 8
+     }
+]

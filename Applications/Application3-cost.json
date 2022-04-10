@@ -1,0 +1,1776 @@
+[{ "app": "APP3-cost1020",
+   "cost": 1020,
+   "availability": 82,
+   "responseTime": 288,
+   "weights":[0.25,0.5,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS13",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS13-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS13-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS13-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS23",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS23-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS23-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS23-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS33",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS33-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS33-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS33-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS43",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS43-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS43-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS43-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS53",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS53-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS53-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS53-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS63",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS63-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS63-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS63-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS73",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS73-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS73-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS73-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS83",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS83-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS83-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS83-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS93",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS93-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS93-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS93-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS103",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS103-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS103-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS103-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS113",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS113-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS113-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS113-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS123",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS123-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS123-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS123-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ },
+ { "app": "APP3-cost1200",
+   "cost": 1200,
+   "availability": 82,
+   "responseTime": 288,
+   "weights":[0.25,0.5,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS13",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS13-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS13-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS13-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS23",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS23-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS23-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS23-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS33",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS33-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS33-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS33-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS43",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS43-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS43-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS43-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS53",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS53-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS53-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS53-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS63",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS63-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS63-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS63-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS73",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS73-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS73-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS73-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS83",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS83-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS83-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS83-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS93",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS93-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS93-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS93-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS103",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS103-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS103-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS103-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS113",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS113-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS113-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS113-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS123",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS123-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS123-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS123-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ },
+ { "app": "APP3-cost1380",
+   "cost": 1380,
+   "availability": 82,
+   "responseTime": 288,
+   "weights":[0.25,0.5,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS13",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS13-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS13-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS13-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS23",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS23-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS23-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS23-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS33",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS33-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS33-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS33-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS43",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS43-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS43-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS43-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS53",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS53-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS53-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS53-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS63",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS63-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS63-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS63-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS73",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS73-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS73-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS73-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS83",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS83-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS83-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS83-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS93",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS93-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS93-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS93-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS103",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS103-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS103-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS103-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS113",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS113-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS113-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS113-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS123",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS123-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS123-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS123-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ },
+ { "app": "APP3-cost1560",
+   "cost": 1560,
+   "availability": 82,
+   "responseTime": 288,
+   "weights":[0.25,0.5,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS13",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS13-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS13-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS13-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS23",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS23-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS23-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS23-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS33",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS33-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS33-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS33-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS43",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS43-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS43-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS43-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS53",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS53-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS53-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS53-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS63",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS63-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS63-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS63-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS73",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS73-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS73-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS73-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS83",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS83-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS83-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS83-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS93",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS93-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS93-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS93-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS103",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS103-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS103-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS103-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS113",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS113-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS113-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS113-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS123",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS123-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS123-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS123-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ },
+ { "app": "APP3-cost1920",
+   "cost": 1920,
+   "availability": 82,
+   "responseTime": 288,
+   "weights":[0.25,0.5,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS13",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS13-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS13-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS13-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS23",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS23-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS23-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS23-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS33",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS33-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS33-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS33-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS43",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS43-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS43-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS43-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS53",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS53-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS53-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS53-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS63",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS63-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS63-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS63-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS73",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS73-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS73-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS73-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS83",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS83-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":8,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS83-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS83-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS93",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS93-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS93-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS93-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS103",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS103-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS103-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS103-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS113",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS113-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS113-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS113-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS123",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS123-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS123-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS123-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ }
+ ]

@@ -1,0 +1,725 @@
+[{ "app": "APP1-rt4",
+   "cost": 720,
+   "availability": 82,
+   "responseTime": 108,
+   "weights":[0.5,0.25,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS11",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS11-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS11-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS11-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS21",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS21-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS21-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS21-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS31",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS31-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS31-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS31-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS41",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS41-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS41-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS41-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS51",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS51-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS51-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS51-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS61",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS61-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1350}]
+       },
+       {
+         "nameSr": "MS61-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS61-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+      }] 
+ },
+ { "app": "APP1-rt5",
+   "cost": 720,
+   "availability": 82,
+   "responseTime": 126,
+   "weights":[0.5,0.25,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS11",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS11-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS11-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS11-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS21",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS21-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS21-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS21-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS31",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS31-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS31-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS31-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS41",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS41-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS41-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS41-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS51",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS51-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS51-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS51-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS61",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS61-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1350}]
+       },
+       {
+         "nameSr": "MS61-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS61-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+      }] 
+ },
+ { "app": "APP1-rt6",
+   "cost": 720,
+   "availability": 82,
+   "responseTime": 144,
+   "weights":[0.5,0.25,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS11",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS11-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS11-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS11-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS21",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS21-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS21-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS21-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS31",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS31-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS31-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS31-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS41",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS41-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS41-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS41-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS51",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS51-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS51-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS51-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS61",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS61-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1350}]
+       },
+       {
+         "nameSr": "MS61-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS61-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+      }] 
+ },
+ { "app": "APP1-rt7",
+   "cost": 720,
+   "availability": 82,
+   "responseTime": 162,
+   "weights":[0.5,0.25,0.25],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS11",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS11-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS11-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS11-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS21",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS21-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS21-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS21-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS31",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS31-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS31-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS31-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS41",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS41-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS41-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS41-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS51",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS51-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":960}]
+       },
+       {
+         "nameSr": "MS51-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS51-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS61",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS61-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1350}]
+       },
+       {
+         "nameSr": "MS61-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS61-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+      }] 
+  }
+ ]

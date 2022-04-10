@@ -1,0 +1,2211 @@
+[{ "app": "APP4-a80",
+   "cost": 1575,
+   "availability": 80,
+   "responseTime": 360,
+   "weights":[0.25,0.25,0.5],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS14",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS14-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS14-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS14-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS24",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS24-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS24-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS24-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS34",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS34-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS34-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS34-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS44",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS44-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS44-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS44-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS54",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS54-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS54-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS54-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS64",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS64-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1300}]
+       },
+       {
+         "nameSr": "MS64-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS64-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS74",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS74-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS74-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS74-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS84",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS84-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS84-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS84-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS94",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS94-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS94-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS94-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS104",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS104-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS104-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS104-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS114",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS114-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS114-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS114-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS124",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS124-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS124-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS124-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS134",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS134-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS134-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS134-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS144",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS144-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS144-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS144-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS154",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS154-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS154-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS154-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ },
+ { "app": "APP4-a82",
+   "cost": 1575,
+   "availability": 82,
+   "responseTime": 360,
+   "weights":[0.25,0.25,0.5],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS14",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS14-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS14-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS14-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS24",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS24-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS24-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS24-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS34",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS34-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS34-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS34-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS44",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS44-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS44-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS44-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS54",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS54-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS54-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS54-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS64",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS64-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1300}]
+       },
+       {
+         "nameSr": "MS64-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS64-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS74",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS74-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS74-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS74-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS84",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS84-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS84-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS84-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS94",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS94-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS94-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS94-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS104",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS104-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS104-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS104-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS114",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS114-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS114-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS114-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS124",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS124-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS124-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS124-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS134",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS134-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS134-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS134-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS144",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS144-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS144-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS144-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS154",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS154-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS154-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS154-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ },
+{ "app": "APP4-a84",
+   "cost": 1575,
+   "availability": 84,
+   "responseTime": 360,
+   "weights":[0.25,0.25,0.5],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS14",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS14-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS14-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS14-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS24",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS24-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS24-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS24-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS34",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS34-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS34-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS34-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS44",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS44-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS44-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS44-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS54",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS54-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS54-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS54-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS64",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS64-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1300}]
+       },
+       {
+         "nameSr": "MS64-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS64-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS74",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS74-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS74-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS74-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS84",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS84-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS84-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS84-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS94",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS94-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS94-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS94-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS104",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS104-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS104-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS104-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS114",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS114-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS114-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS114-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS124",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS124-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS124-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS124-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS134",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS134-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS134-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS134-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS144",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS144-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS144-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS144-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS154",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS154-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS154-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS154-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ },
+ { "app": "APP4-a86",
+   "cost": 1575,
+   "availability": 86,
+   "responseTime": 360,
+   "weights":[0.25,0.25,0.5],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS14",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS14-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS14-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS14-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS24",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS24-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS24-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS24-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS34",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS34-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS34-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS34-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS44",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS44-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS44-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS44-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS54",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS54-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS54-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS54-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS64",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS64-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1300}]
+       },
+       {
+         "nameSr": "MS64-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS64-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS74",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS74-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS74-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS74-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS84",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS84-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS84-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS84-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS94",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS94-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS94-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS94-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS104",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS104-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS104-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS104-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS114",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS114-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS114-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS114-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS124",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS124-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS124-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS124-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS134",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS134-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS134-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS134-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS144",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS144-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS144-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS144-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS154",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS154-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS154-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS154-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ },
+ { "app": "APP4-a88",
+   "cost": 1575,
+   "availability": 88,
+   "responseTime": 360,
+   "weights":[0.25,0.25,0.5],
+   "priority":["responseTime","cost","availability"],
+   "microservices":[{
+      "nameMS": "MS14",
+      "quota": 0.08,
+      "services":[{
+         "nameSr": "MS14-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS14-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+       {
+         "nameSr": "MS14-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+      },
+      {
+        "nameMS": "MS24",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS24-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":2,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS24-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        }, 
+        {
+         "nameSr": "MS24-3",
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":["MySQL"],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS34",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS34-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS34-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS34-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS44",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS44-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS44-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS44-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS54",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS54-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS54-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS54-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS64",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS64-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1300}]
+       },
+       {
+         "nameSr": "MS64-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS64-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS74",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS74-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":1024}]
+       },
+       {
+         "nameSr": "MS74-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS74-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS84",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS84-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":32,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS84-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS84-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS94",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS94-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":32,
+           "HD":1200}]
+       },
+       {
+         "nameSr": "MS94-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS94-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS104",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS104-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":16,
+           "HD":778}]
+       },
+       {
+         "nameSr": "MS104-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS104-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS114",
+        "quota": 0.09,
+        "services":[{
+         "nameSr": "MS114-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":8,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS114-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS114-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS124",
+        "quota": 0.08,
+        "services":[{
+         "nameSr": "MS124-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":512}]
+       },
+       {
+         "nameSr": "MS124-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS124-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS134",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS134-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":4,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS134-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS134-3",  
+         "nameCl": "database-C3",
+         "functionality": "NoSQL Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS144",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS144-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i5",
+           "Core":4,
+           "RAM":8,
+           "HD":1000}]
+       },
+       {
+         "nameSr": "MS144-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS144-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       },
+      {
+        "nameMS": "MS154",
+        "quota": 0.06,
+        "services":[{
+         "nameSr": "MS154-1",
+         "nameCl": "compute-C1",
+         "functionality": "instantiate virtual machines",
+         "features":[],
+         "capabilities":[{
+           "CPU":"i7",
+           "Core":4,
+           "RAM":8,
+           "HD":256}]
+       },
+       {
+         "nameSr": "MS154-2",
+         "nameCl": "storage-C2",
+         "functionality": "object storage",
+         "features":["stores data", "retrives data"],
+         "capabilities":[]
+        },
+        {
+         "nameSr": "MS154-3",  
+         "nameCl": "database-C3",
+         "functionality": "Relational Database",
+         "features":[],
+         "capabilities":[]
+       }]
+       }]
+ }     
+ ]
