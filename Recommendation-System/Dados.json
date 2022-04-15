@@ -22,26 +22,18 @@
           "../Applications/Application2-acr.json"
      ],
      "Providers": [
-          "../Providers/ProvidersGKP200-10.json",
-          "../Providers/ProvidersGKP50-10.json",
-          "../Providers/ProvidersGKP100-20.json",
-          "../Providers/ProvidersGKP50-25.json",
-          "../Providers/ProvidersGKP90-10.json",
-          "../Providers/ProvidersGKP100-40.json",
           "../Providers/ProvidersGKP400-10.json",
-          "../Providers/ProvidersGKP80-10.json",
-          "../Providers/ProvidersGKP500-10.json",
-          "../Providers/ProvidersGKP300-10.json",
-          "../Providers/ProvidersGKP70-10.json",
-          "../Providers/ProvidersGKP60-10.json",
-          "../Providers/ProvidersGKP100-10.json",
-          "../Providers/ProvidersGKP50-20.json",
-          "../Providers/ProvidersGKP50-15.json",
-          "../Providers/ProvidersGKP50-30.json",
-          "../Providers/ProvidersGKP100-30.json"
+          "../Providers/ProvidersGKP500-10.json"
      ],
      "ResultsData": [],
-     "MonitoringData": [],
+     "MonitoringData": [
+          "../gerador/APP1-a80_MS4_P5.json",
+          "../gerador/APP1-a80_MS3_P22.json",
+          "../gerador/APP1-a80_MS2_P39.json",
+          "../gerador/APP1-a80_MS0_P22.json",
+          "../gerador/APP1-a80_MS1_P22.json",
+          "../gerador/APP1-a80_MS5_P41.json"
+     ],
      "NewProviders": [],
      "Interations": [
           "../Interations/APP4-iterations-1.json",
@@ -51,16 +43,7 @@
           "../Interations/APP5-iterations-1.json"
      ],
      "LinksProviders": [
-          "../LinksProviders/linksProviders300.json",
-          "../LinksProviders/linksProviders90.json",
-          "../LinksProviders/linksProviders200.json",
           "../LinksProviders/linksProviders400.json",
-          "../LinksProviders/linksProviders500.json",
-          "../LinksProviders/linksProviders100.json",
-          "../LinksProviders/linksProviders80.json",
-          "../LinksProviders/linksProviders10.json",
-          "../LinksProviders/linksProviders70.json",
-          "../LinksProviders/linksProviders60.json",
-          "../LinksProviders/linksProviders50.json"
+          "../LinksProviders/linksProviders500.json"
      ]
 }

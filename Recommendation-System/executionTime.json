@@ -1,0 +1,2882 @@
+[
+     {
+          "App": "APP1-rt4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               2415,
+               2400,
+               2423,
+               2398,
+               2388,
+               2406,
+               2596,
+               2489,
+               2603,
+               2543
+          ]
+     },
+     {
+          "App": "APP1-rt4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               3603,
+               3461,
+               3472,
+               3371,
+               3376,
+               3294,
+               3248,
+               3344,
+               3391,
+               3310
+          ]
+     },
+     {
+          "App": "APP1-rt5",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               2602,
+               2567,
+               2692,
+               2524,
+               2615,
+               2764,
+               2594,
+               2587,
+               2590,
+               2596
+          ]
+     },
+     {
+          "App": "APP1-rt5",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               3419,
+               3371,
+               3599,
+               3455,
+               3458,
+               3474,
+               3379,
+               3527,
+               3356,
+               3522
+          ]
+     },
+     {
+          "App": "APP1-rt6",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               2696,
+               2815,
+               2628,
+               2668,
+               2672,
+               2679,
+               2677,
+               2685,
+               2692,
+               2694
+          ]
+     },
+     {
+          "App": "APP1-rt6",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               3534,
+               3546,
+               3602,
+               3545,
+               3359,
+               3570,
+               3626,
+               3587,
+               4061,
+               3684
+          ]
+     },
+     {
+          "App": "APP1-rt7",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               2638,
+               2722,
+               2859,
+               2656,
+               2940,
+               2597,
+               2689,
+               2699,
+               2742,
+               2759
+          ]
+     },
+     {
+          "App": "APP1-rt7",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               3575,
+               3535,
+               3670,
+               3446,
+               3587,
+               3645,
+               3548,
+               3422,
+               3530,
+               3607
+          ]
+     },
+     {
+          "App": "APP3-rt4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5768,
+               5443,
+               5646,
+               5565,
+               5422,
+               5494,
+               5754,
+               5422,
+               5738,
+               5303
+          ]
+     },
+     {
+          "App": "APP3-rt4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               7142,
+               6830,
+               7355,
+               7040,
+               7369,
+               7376,
+               6815,
+               7321,
+               7143,
+               7391
+          ]
+     },
+     {
+          "App": "APP3-rt5",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5894,
+               5988,
+               5448,
+               5881,
+               5511,
+               5738,
+               5774,
+               5700,
+               5537,
+               5899
+          ]
+     },
+     {
+          "App": "APP3-rt5",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               7433,
+               7015,
+               7416,
+               7331,
+               7099,
+               7275,
+               7525,
+               7673,
+               7356,
+               7522
+          ]
+     },
+     {
+          "App": "APP3-rt6",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5764,
+               5989,
+               5540,
+               5655,
+               5905,
+               5531,
+               5979,
+               5590,
+               5697,
+               5796
+          ]
+     },
+     {
+          "App": "APP3-rt6",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               7881,
+               7420,
+               7420,
+               7374,
+               7350,
+               7561,
+               7207,
+               7404,
+               7232,
+               7268
+          ]
+     },
+     {
+          "App": "APP3-rt7",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5803,
+               5926,
+               5772,
+               5589,
+               6042,
+               5571,
+               5827,
+               6966,
+               6638,
+               8310
+          ]
+     },
+     {
+          "App": "APP3-rt7",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               8330,
+               11181,
+               9744,
+               10191,
+               9134,
+               9800,
+               7738,
+               7393,
+               7300,
+               7586
+          ]
+     },
+     {
+          "App": "APP5-rt4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7860,
+               8325,
+               8232,
+               7798,
+               8208,
+               7836,
+               8231,
+               8273,
+               8132,
+               8415
+          ]
+     },
+     {
+          "App": "APP5-rt4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               10922,
+               10339,
+               10734,
+               10567,
+               10041,
+               10155,
+               10723,
+               9940,
+               10966,
+               10115
+          ]
+     },
+     {
+          "App": "APP5-rt5",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               8251,
+               8392,
+               8115,
+               8789,
+               8360,
+               8519,
+               8605,
+               8016,
+               8401,
+               8478
+          ]
+     },
+     {
+          "App": "APP5-rt5",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               11013,
+               10242,
+               11074,
+               10227,
+               10367,
+               10486,
+               11113,
+               10108,
+               11206,
+               10353
+          ]
+     },
+     {
+          "App": "APP5-rt6",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               8503,
+               7720,
+               8354,
+               9012,
+               8077,
+               8601,
+               8217,
+               8198,
+               8077,
+               8614
+          ]
+     },
+     {
+          "App": "APP5-rt6",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               10997,
+               10990,
+               10465,
+               10783,
+               10466,
+               10986,
+               10476,
+               11017,
+               10572,
+               11060
+          ]
+     },
+     {
+          "App": "APP5-rt7",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               8531,
+               8020,
+               8499,
+               8620,
+               8661,
+               8508,
+               8453,
+               8706,
+               8916,
+               8234
+          ]
+     },
+     {
+          "App": "APP5-rt7",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               11293,
+               10938,
+               10398,
+               11206,
+               10277,
+               11428,
+               10494,
+               10680,
+               10978,
+               10643
+          ]
+     },
+     {
+          "App": "APP1-cost510",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3084,
+               3333,
+               2954,
+               3140,
+               3166,
+               3206,
+               2996,
+               3191,
+               2964,
+               3124
+          ]
+     },
+     {
+          "App": "APP1-cost510",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4080,
+               4014,
+               4207,
+               4032,
+               3978,
+               4198,
+               4010,
+               4249,
+               4051,
+               4027
+          ]
+     },
+     {
+          "App": "APP1-cost600",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               2860,
+               3357,
+               2999,
+               3163,
+               3186,
+               3236,
+               3041,
+               3233,
+               3020,
+               3203
+          ]
+     },
+     {
+          "App": "APP1-cost600",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4251,
+               4021,
+               4279,
+               3783,
+               4181,
+               4001,
+               4241,
+               4102,
+               3820,
+               4272
+          ]
+     },
+     {
+          "App": "APP1-cost690",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3053,
+               3153,
+               3142,
+               3133,
+               3130,
+               3133,
+               3126,
+               3132,
+               3139,
+               3140
+          ]
+     },
+     {
+          "App": "APP1-cost690",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4086,
+               4009,
+               4221,
+               4035,
+               4281,
+               3847,
+               4282,
+               4135,
+               3849,
+               4289
+          ]
+     },
+     {
+          "App": "APP1-cost780",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3068,
+               3135,
+               3116,
+               3126,
+               3391,
+               3027,
+               3220,
+               2992,
+               3138,
+               3143
+          ]
+     },
+     {
+          "App": "APP1-cost780",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4128,
+               4035,
+               4238,
+               4051,
+               4339,
+               4151,
+               3885,
+               4286,
+               4085,
+               4053
+          ]
+     },
+     {
+          "App": "APP1-cost960",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3155,
+               3052,
+               3233,
+               3002,
+               3143,
+               3148,
+               3143,
+               3160,
+               3150,
+               3463
+          ]
+     },
+     {
+          "App": "APP1-cost960",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4101,
+               4318,
+               4094,
+               4072,
+               4276,
+               4089,
+               4040,
+               4280,
+               4078,
+               4332
+          ]
+     },
+     {
+          "App": "APP2-cost765",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               4037,
+               4201,
+               4263,
+               3771,
+               4183,
+               4293,
+               3785,
+               4209,
+               4296,
+               3809
+          ]
+     },
+     {
+          "App": "APP2-cost765",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               5146,
+               5262,
+               5210,
+               5512,
+               5031,
+               5642,
+               5238,
+               5240,
+               5242,
+               5250
+          ]
+     },
+     {
+          "App": "APP2-cost900",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3896,
+               4262,
+               4006,
+               4253,
+               4016,
+               4328,
+               4030,
+               4268,
+               4033,
+               4283
+          ]
+     },
+     {
+          "App": "APP2-cost900",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               5727,
+               4820,
+               5514,
+               5403,
+               5094,
+               5294,
+               5298,
+               5559,
+               5070,
+               5592
+          ]
+     },
+     {
+          "App": "APP2-cost1035",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               4139,
+               4248,
+               4250,
+               4430,
+               4049,
+               4228,
+               4210,
+               4264,
+               4349,
+               4178
+          ]
+     },
+     {
+          "App": "APP2-cost1035",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               5523,
+               5168,
+               5149,
+               5380,
+               5470,
+               5302,
+               5265,
+               4842,
+               5589,
+               5417
+          ]
+     },
+     {
+          "App": "APP2-cost1170",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               4176,
+               4333,
+               4077,
+               4536,
+               3993,
+               4320,
+               4408,
+               3859,
+               4322,
+               4070
+          ]
+     },
+     {
+          "App": "APP2-cost1170",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               5598,
+               4858,
+               5939,
+               5633,
+               5502,
+               5680,
+               5508,
+               5678,
+               5189,
+               6335
+          ]
+     },
+     {
+          "App": "APP2-cost1440",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               4855,
+               4346,
+               4340,
+               4482,
+               3884,
+               4334,
+               4463,
+               3921,
+               4359,
+               4491
+          ]
+     },
+     {
+          "App": "APP2-cost1440",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               5679,
+               5426,
+               5444,
+               4974,
+               5667,
+               5516,
+               5220,
+               5355,
+               5721,
+               5155
+          ]
+     },
+     {
+          "App": "APP1-acr1",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3055,
+               3357,
+               3375,
+               3438,
+               3179,
+               3400,
+               3486,
+               3213,
+               3445,
+               3201
+          ]
+     },
+     {
+          "App": "APP1-acr1",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4398,
+               4019,
+               4522,
+               4341,
+               4019,
+               4491,
+               4286,
+               4231,
+               4528,
+               4280
+          ]
+     },
+     {
+          "App": "APP1-acr2",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3209,
+               3357,
+               3375,
+               3434,
+               3190,
+               3133,
+               3307,
+               3307,
+               3659,
+               3197
+          ]
+     },
+     {
+          "App": "APP1-acr2",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4473,
+               4520,
+               4182,
+               4576,
+               4344,
+               4357,
+               4037,
+               4662,
+               4294,
+               4817
+          ]
+     },
+     {
+          "App": "APP1-acr3",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3735,
+               3279,
+               3143,
+               3328,
+               3325,
+               3319,
+               3315,
+               3492,
+               3545,
+               3473
+          ]
+     },
+     {
+          "App": "APP1-acr3",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4352,
+               4241,
+               4510,
+               4288,
+               4583,
+               4045,
+               4789,
+               4401,
+               4062,
+               4529
+          ]
+     },
+     {
+          "App": "APP1-acr4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3489,
+               3164,
+               3322,
+               3331,
+               3329,
+               3328,
+               3331,
+               4080,
+               3519,
+               3750
+          ]
+     },
+     {
+          "App": "APP1-acr4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               5285,
+               4519,
+               4437,
+               5040,
+               4515,
+               4609,
+               4059,
+               4584,
+               4074,
+               4550
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3552,
+               3243,
+               3158,
+               3357,
+               3339,
+               3350,
+               3354,
+               3361,
+               3343,
+               3347
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4332,
+               4251,
+               4532,
+               4622,
+               4860,
+               4335,
+               4850,
+               4418,
+               4070,
+               4603
+          ]
+     },
+     {
+          "App": "APP1-a82",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3253,
+               3758,
+               3217,
+               3466,
+               3170,
+               3364,
+               3375,
+               3379,
+               3356,
+               3372
+          ]
+     },
+     {
+          "App": "APP1-a82",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4365,
+               4614,
+               4067,
+               4563,
+               4323,
+               4644,
+               4086,
+               4620,
+               4443,
+               4090
+          ]
+     },
+     {
+          "App": "APP1-a84",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3027,
+               3399,
+               3391,
+               3753,
+               3240,
+               3486,
+               3199,
+               3396,
+               3389,
+               3419
+          ]
+     },
+     {
+          "App": "APP1-a84",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4377,
+               4310,
+               4601,
+               4335,
+               4660,
+               4081,
+               4621,
+               4426,
+               4096,
+               4633
+          ]
+     },
+     {
+          "App": "APP1-a86",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3270,
+               3441,
+               3406,
+               3408,
+               3407,
+               3415,
+               3412,
+               3419,
+               3418,
+               3418
+          ]
+     },
+     {
+          "App": "APP1-a86",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4422,
+               4314,
+               4647,
+               4426,
+               4078,
+               4598,
+               4356,
+               4733,
+               4483,
+               4110
+          ]
+     },
+     {
+          "App": "APP1-a88",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               3387,
+               3328,
+               3224,
+               3430,
+               3432,
+               3432,
+               3439,
+               3441,
+               3438,
+               3430
+          ]
+     },
+     {
+          "App": "APP1-a88",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               4431,
+               4333,
+               4619,
+               4390,
+               4336,
+               4631,
+               4374,
+               4705,
+               4120,
+               4647
+          ]
+     },
+     {
+          "App": "APP5-acr1",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               9018,
+               9236,
+               9279,
+               9082,
+               9591,
+               8788,
+               8822,
+               8791,
+               8828,
+               8826
+          ]
+     },
+     {
+          "App": "APP5-acr1",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               11401,
+               11121,
+               11853,
+               11288,
+               11783,
+               12754,
+               11799,
+               11340,
+               11366,
+               11453
+          ]
+     },
+     {
+          "App": "APP5-acr2",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               9035,
+               8895,
+               8601,
+               10150,
+               10438,
+               9861,
+               8757,
+               9410,
+               9370,
+               9428
+          ]
+     },
+     {
+          "App": "APP5-acr2",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               12611,
+               12878,
+               11403,
+               11772,
+               11779,
+               12151,
+               11585,
+               11150,
+               11450,
+               11337
+          ]
+     },
+     {
+          "App": "APP5-acr3",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10011,
+               9147,
+               8948,
+               9154,
+               8987,
+               9008,
+               8398,
+               9632,
+               9604,
+               9739
+          ]
+     },
+     {
+          "App": "APP5-acr3",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               12852,
+               11176,
+               11365,
+               13053,
+               12758,
+               13365,
+               13154,
+               12933,
+               11254,
+               11995
+          ]
+     },
+     {
+          "App": "APP5-acr4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               11959,
+               10471,
+               10174,
+               9470,
+               10265,
+               9659,
+               9769,
+               9448,
+               10029,
+               10132
+          ]
+     },
+     {
+          "App": "APP5-acr4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               12852,
+               13295,
+               11776,
+               12102,
+               12918,
+               12282,
+               11681,
+               13297,
+               12421,
+               12032
+          ]
+     },
+     {
+          "App": "APP3-a80",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               6121,
+               7945,
+               6949,
+               6874,
+               7581,
+               7394,
+               7058,
+               7016,
+               6977,
+               7186
+          ]
+     },
+     {
+          "App": "APP3-a80",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9301,
+               8625,
+               9141,
+               9185,
+               8760,
+               9109,
+               9272,
+               8637,
+               9533,
+               9216
+          ]
+     },
+     {
+          "App": "APP3-a82",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               6917,
+               7799,
+               6823,
+               6841,
+               6789,
+               6973,
+               7067,
+               6733,
+               6691,
+               6600
+          ]
+     },
+     {
+          "App": "APP3-a82",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9374,
+               8540,
+               8631,
+               8613,
+               8569,
+               8992,
+               8214,
+               9337,
+               8298,
+               8953
+          ]
+     },
+     {
+          "App": "APP3-a84",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7127,
+               7003,
+               7046,
+               7101,
+               6724,
+               6667,
+               7039,
+               7133,
+               6776,
+               6736
+          ]
+     },
+     {
+          "App": "APP3-a84",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               8659,
+               9870,
+               8865,
+               8930,
+               8527,
+               9379,
+               8272,
+               8663,
+               8778,
+               8334
+          ]
+     },
+     {
+          "App": "APP3-a86",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               6800,
+               6573,
+               7134,
+               7651,
+               6636,
+               7044,
+               7050,
+               6603,
+               7335,
+               6576
+          ]
+     },
+     {
+          "App": "APP3-a86",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               8804,
+               8170,
+               9021,
+               9123,
+               8356,
+               8228,
+               9175,
+               9017,
+               8701,
+               8704
+          ]
+     },
+     {
+          "App": "APP3-a88",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7227,
+               6715,
+               7191,
+               6744,
+               6603,
+               7206,
+               8010,
+               7373,
+               6753,
+               7081
+          ]
+     },
+     {
+          "App": "APP3-a88",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9128,
+               8588,
+               8975,
+               8776,
+               8620,
+               9071,
+               8218,
+               9441,
+               8286,
+               9030
+          ]
+     },
+     {
+          "App": "APP3-cost1020",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7186,
+               7090,
+               7155,
+               6755,
+               6582,
+               7229,
+               7808,
+               6817,
+               6748,
+               7092
+          ]
+     },
+     {
+          "App": "APP3-cost1020",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9162,
+               8633,
+               9021,
+               9971,
+               9511,
+               9164,
+               8246,
+               9515,
+               8298,
+               9137
+          ]
+     },
+     {
+          "App": "APP3-cost1200",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               6812,
+               7461,
+               7118,
+               7238,
+               7402,
+               8086,
+               7664,
+               7127,
+               7870,
+               7890
+          ]
+     },
+     {
+          "App": "APP3-cost1200",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               10152,
+               9552,
+               10589,
+               9571,
+               10064,
+               9831,
+               8874,
+               9916,
+               10836,
+               8909
+          ]
+     },
+     {
+          "App": "APP3-cost1380",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               8365,
+               7210,
+               7452,
+               8653,
+               7369,
+               7575,
+               7457,
+               8600,
+               9031,
+               10307
+          ]
+     },
+     {
+          "App": "APP3-cost1380",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               11264,
+               10240,
+               10113,
+               10145,
+               9759,
+               9594,
+               9953,
+               10064,
+               9541,
+               10028
+          ]
+     },
+     {
+          "App": "APP3-cost1560",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7558,
+               7822,
+               7488,
+               8540,
+               7840,
+               7658,
+               7828,
+               7651,
+               7830,
+               7329
+          ]
+     },
+     {
+          "App": "APP3-cost1560",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               10047,
+               9676,
+               9417,
+               9103,
+               9775,
+               9932,
+               9367,
+               11015,
+               9452,
+               9401
+          ]
+     },
+     {
+          "App": "APP3-cost1920",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               8156,
+               8745,
+               7709,
+               7472,
+               7981,
+               8485,
+               8417,
+               8048,
+               7996,
+               7637
+          ]
+     },
+     {
+          "App": "APP3-cost1920",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9604,
+               9155,
+               10133,
+               9628,
+               9647,
+               9690,
+               10080,
+               9439,
+               9828,
+               9432
+          ]
+     },
+     {
+          "App": "APP3-acr1",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7899,
+               7446,
+               7425,
+               8253,
+               7620,
+               7697,
+               7483,
+               8526,
+               7972,
+               8175
+          ]
+     },
+     {
+          "App": "APP3-acr1",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9982,
+               9158,
+               9641,
+               11456,
+               9219,
+               9669,
+               8655,
+               10064,
+               8706,
+               9565
+          ]
+     },
+     {
+          "App": "APP3-acr2",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               8132,
+               6631,
+               8360,
+               7228,
+               8032,
+               8629,
+               9277,
+               8477,
+               7676,
+               7606
+          ]
+     },
+     {
+          "App": "APP3-acr2",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               10312,
+               9134,
+               9638,
+               9150,
+               8500,
+               10362,
+               9102,
+               9862,
+               9921,
+               9693
+          ]
+     },
+     {
+          "App": "APP3-acr3",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7169,
+               7489,
+               6978,
+               7394,
+               7409,
+               7515,
+               7110,
+               6494,
+               8225,
+               7124
+          ]
+     },
+     {
+          "App": "APP3-acr3",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9185,
+               9098,
+               8708,
+               8560,
+               9489,
+               8539,
+               9489,
+               9164,
+               8729,
+               8602
+          ]
+     },
+     {
+          "App": "APP3-acr4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7520,
+               7446,
+               7408,
+               7462,
+               7544,
+               7145,
+               6507,
+               8306,
+               7110,
+               7137
+          ]
+     },
+     {
+          "App": "APP3-acr4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9156,
+               8814,
+               9799,
+               8993,
+               9369,
+               9510,
+               9214,
+               8715,
+               8613,
+               8982
+          ]
+     },
+     {
+          "App": "APP4-a80",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10466,
+               10097,
+               9578,
+               9581,
+               9468,
+               9816,
+               10133,
+               10811,
+               9601,
+               9514
+          ]
+     },
+     {
+          "App": "APP4-a80",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13331,
+               11123,
+               12818,
+               12802,
+               11859,
+               11108,
+               12813,
+               12968,
+               12806,
+               11177
+          ]
+     },
+     {
+          "App": "APP4-a82",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               9384,
+               9129,
+               10426,
+               9730,
+               8995,
+               10883,
+               9655,
+               9586,
+               9928,
+               9884
+          ]
+     },
+     {
+          "App": "APP4-a82",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               11837,
+               12851,
+               11966,
+               11182,
+               13037,
+               12898,
+               11273,
+               13327,
+               11226,
+               13123
+          ]
+     },
+     {
+          "App": "APP4-a84",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10138,
+               9506,
+               10747,
+               9419,
+               10834,
+               9572,
+               9942,
+               10371,
+               9903,
+               9913
+          ]
+     },
+     {
+          "App": "APP4-a84",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               11897,
+               12704,
+               12142,
+               13259,
+               12485,
+               11275,
+               13447,
+               11263,
+               13173,
+               12251
+          ]
+     },
+     {
+          "App": "APP4-a86",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               11255,
+               9342,
+               9961,
+               11021,
+               9744,
+               9768,
+               9754,
+               9796,
+               9800,
+               9804
+          ]
+     },
+     {
+          "App": "APP4-a86",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               12575,
+               11787,
+               13168,
+               13526,
+               11378,
+               13284,
+               12323,
+               13483,
+               12164,
+               11377
+          ]
+     },
+     {
+          "App": "APP4-a88",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10643,
+               10050,
+               10385,
+               11082,
+               9741,
+               9676,
+               10019,
+               11040,
+               10354,
+               9239
+          ]
+     },
+     {
+          "App": "APP4-a88",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13496,
+               12502,
+               12600,
+               11954,
+               13288,
+               12465,
+               13605,
+               12223,
+               11440,
+               13647
+          ]
+     },
+     {
+          "App": "APP4-rt4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               9586,
+               9736,
+               10618,
+               10269,
+               10349,
+               9911,
+               9904,
+               9940,
+               9979,
+               9293
+          ]
+     },
+     {
+          "App": "APP4-rt4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13607,
+               12583,
+               12674,
+               12055,
+               13031,
+               12523,
+               13066,
+               13284,
+               11518,
+               12951
+          ]
+     },
+     {
+          "App": "APP4-rt5",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10767,
+               10939,
+               9159,
+               11143,
+               10278,
+               10202,
+               10580,
+               11290,
+               9851,
+               10322
+          ]
+     },
+     {
+          "App": "APP4-rt5",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13917,
+               11486,
+               13709,
+               12251,
+               12106,
+               13292,
+               12274,
+               12059,
+               13000,
+               13659
+          ]
+     },
+     {
+          "App": "APP4-rt6",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               9952,
+               10301,
+               10803,
+               10504,
+               9239,
+               11264,
+               10516,
+               9274,
+               11256,
+               10421
+          ]
+     },
+     {
+          "App": "APP4-rt6",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13138,
+               13593,
+               12724,
+               12801,
+               12907,
+               11535,
+               13625,
+               13379,
+               12336,
+               12209
+          ]
+     },
+     {
+          "App": "APP4-rt7",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10440,
+               10879,
+               10265,
+               11456,
+               10019,
+               9967,
+               10685,
+               10474,
+               10350,
+               11550
+          ]
+     },
+     {
+          "App": "APP4-rt7",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13018,
+               12297,
+               12989,
+               11620,
+               13958,
+               11571,
+               13660,
+               13979,
+               11712,
+               14024
+          ]
+     },
+     {
+          "App": "APP2-rt4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               4054,
+               5374,
+               5823,
+               5345,
+               5805,
+               5351,
+               5819,
+               5357,
+               5813,
+               5950
+          ]
+     },
+     {
+          "App": "APP2-rt4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               7231,
+               6027,
+               7553,
+               6698,
+               6034,
+               7611,
+               6049,
+               6987,
+               7620,
+               6089
+          ]
+     },
+     {
+          "App": "APP2-rt5",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               4520,
+               5841,
+               5934,
+               4915,
+               5830,
+               5964,
+               4982,
+               5380,
+               5863,
+               5404
+          ]
+     },
+     {
+          "App": "APP2-rt5",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               6669,
+               7139,
+               6642,
+               6689,
+               6025,
+               7613,
+               6047,
+               6971,
+               7640,
+               6082
+          ]
+     },
+     {
+          "App": "APP2-rt6",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5214,
+               5015,
+               5432,
+               5927,
+               5501,
+               5545,
+               5640,
+               4992,
+               6020,
+               5029
+          ]
+     },
+     {
+          "App": "APP2-rt6",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               7087,
+               7663,
+               6060,
+               7016,
+               7028,
+               7647,
+               6108,
+               7020,
+               7692,
+               6097
+          ]
+     },
+     {
+          "App": "APP2-rt7",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               4541,
+               5903,
+               5391,
+               5890,
+               5382,
+               5864,
+               5993,
+               4955,
+               5902,
+               5437
+          ]
+     },
+     {
+          "App": "APP2-rt7",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               6727,
+               7215,
+               6101,
+               7059,
+               7703,
+               6118,
+               7129,
+               7212,
+               6761,
+               6091
+          ]
+     },
+     {
+          "App": "APP2-a80",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5178,
+               4990,
+               5891,
+               5436,
+               5910,
+               6048,
+               5045,
+               5474,
+               6020,
+               5035
+          ]
+     },
+     {
+          "App": "APP2-a80",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               6728,
+               7156,
+               6614,
+               7767,
+               6109,
+               7140,
+               7266,
+               6105,
+               7728,
+               6118
+          ]
+     },
+     {
+          "App": "APP2-a82",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5252,
+               5121,
+               5592,
+               5644,
+               5080,
+               5584,
+               5603,
+               5008,
+               5958,
+               6073
+          ]
+     },
+     {
+          "App": "APP2-a82",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               7360,
+               6192,
+               7795,
+               6122,
+               7085,
+               7060,
+               7756,
+               6110,
+               7087,
+               7730
+          ]
+     },
+     {
+          "App": "APP2-a84",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5116,
+               6091,
+               5631,
+               5105,
+               5593,
+               5630,
+               5038,
+               6089,
+               5722,
+               5082
+          ]
+     },
+     {
+          "App": "APP2-a84",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               7942,
+               6113,
+               7178,
+               7289,
+               6121,
+               7782,
+               6160,
+               7121,
+               7814,
+               6206
+          ]
+     },
+     {
+          "App": "APP2-a86",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               6198,
+               5746,
+               5106,
+               5626,
+               5656,
+               5020,
+               6063,
+               5627,
+               5656,
+               5707
+          ]
+     },
+     {
+          "App": "APP2-a86",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               6801,
+               7254,
+               6155,
+               7122,
+               7102,
+               7768,
+               6129,
+               7764,
+               6117,
+               7797
+          ]
+     },
+     {
+          "App": "APP2-a88",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5191,
+               5600,
+               5543,
+               6138,
+               5715,
+               5148,
+               5672,
+               5697,
+               5088,
+               6174
+          ]
+     },
+     {
+          "App": "APP2-a88",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               6711,
+               7699,
+               6829,
+               6152,
+               7812,
+               6152,
+               7138,
+               7119,
+               7809,
+               6130
+          ]
+     },
+     {
+          "App": "APP5-a80",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               11142,
+               10488,
+               9611,
+               11930,
+               10287,
+               11541,
+               10438,
+               10713,
+               11616,
+               11117
+          ]
+     },
+     {
+          "App": "APP5-a80",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13453,
+               11848,
+               15538,
+               15359,
+               17083,
+               14527,
+               15356,
+               13369,
+               15746,
+               15320
+          ]
+     },
+     {
+          "App": "APP5-a82",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               16858,
+               17306,
+               18031,
+               16315,
+               16207,
+               11823,
+               10077,
+               11776,
+               11812,
+               11335
+          ]
+     },
+     {
+          "App": "APP5-a82",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13809,
+               14227,
+               14713,
+               14933,
+               13239,
+               13704,
+               13706,
+               14413,
+               16146,
+               20079
+          ]
+     },
+     {
+          "App": "APP5-a84",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               15383,
+               12513,
+               12208,
+               11868,
+               9971,
+               12559,
+               9951,
+               12469,
+               10634,
+               11788
+          ]
+     },
+     {
+          "App": "APP5-a84",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               15697,
+               12230,
+               14689,
+               14473,
+               13072,
+               13619,
+               14401,
+               13928,
+               12343,
+               14998
+          ]
+     },
+     {
+          "App": "APP5-a86",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10842,
+               11424,
+               10676,
+               12022,
+               10717,
+               12229,
+               10042,
+               12700,
+               10089,
+               12725
+          ]
+     },
+     {
+          "App": "APP5-a86",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13342,
+               15673,
+               13255,
+               13809,
+               14627,
+               13267,
+               13797,
+               15234,
+               13280,
+               14155
+          ]
+     },
+     {
+          "App": "APP5-a88",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               12626,
+               13229,
+               14014,
+               11695,
+               12383,
+               11886,
+               11684,
+               10820,
+               13955,
+               11387
+          ]
+     },
+     {
+          "App": "APP5-a88",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               15360,
+               13084,
+               15911,
+               13424,
+               13966,
+               16024,
+               13328,
+               15795,
+               13241,
+               13875
+          ]
+     },
+     {
+          "App": "APP5-cost1530",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               11606,
+               11593,
+               10791,
+               12194,
+               10826,
+               12308,
+               10142,
+               12788,
+               11414,
+               12757
+          ]
+     },
+     {
+          "App": "APP5-cost1530",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               14296,
+               14743,
+               14417,
+               13102,
+               13713,
+               13560,
+               15634,
+               13140,
+               13712,
+               14569
+          ]
+     },
+     {
+          "App": "APP5-cost1800",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               11099,
+               10222,
+               12133,
+               10080,
+               11812,
+               12626,
+               10769,
+               12164,
+               11019,
+               10099
+          ]
+     },
+     {
+          "App": "APP5-cost1800",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13199,
+               13568,
+               14910,
+               14646,
+               12364,
+               15000,
+               13743,
+               14551,
+               12995,
+               15776
+          ]
+     },
+     {
+          "App": "APP5-cost2070",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10200,
+               12834,
+               10105,
+               11995,
+               12097,
+               11689,
+               10126,
+               12776,
+               10882,
+               12351
+          ]
+     },
+     {
+          "App": "APP5-cost2070",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13151,
+               14913,
+               14534,
+               13993,
+               13206,
+               14622,
+               13263,
+               13902,
+               13846,
+               14615
+          ]
+     },
+     {
+          "App": "APP5-cost2340",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               11049,
+               11712,
+               11060,
+               10161,
+               12862,
+               10170,
+               12813,
+               10931,
+               12256,
+               10938
+          ]
+     },
+     {
+          "App": "APP5-cost2340",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               15237,
+               13712,
+               15958,
+               13487,
+               12479,
+               15145,
+               15004,
+               12463,
+               15176,
+               13872
+          ]
+     },
+     {
+          "App": "APP5-cost2880",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               13120,
+               10351,
+               11437,
+               12882,
+               10889,
+               12180,
+               12342,
+               10997,
+               12377,
+               11033
+          ]
+     },
+     {
+          "App": "APP5-cost2880",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               15494,
+               13304,
+               13976,
+               14785,
+               13208,
+               16056,
+               13399,
+               14084,
+               14055,
+               13892
+          ]
+     },
+     {
+          "App": "APP4-cost1275",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               9514,
+               12960,
+               10098,
+               12875,
+               11028,
+               11058,
+               11128,
+               10276,
+               11496,
+               12941
+          ]
+     },
+     {
+          "App": "APP4-cost1275",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               14101,
+               14011,
+               13395,
+               13620,
+               13247,
+               14771,
+               14668,
+               14096,
+               13383,
+               13232
+          ]
+     },
+     {
+          "App": "APP4-cost1500",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               11790,
+               12223,
+               11457,
+               13026,
+               10272,
+               11619,
+               11577,
+               12650,
+               10303,
+               11574
+          ]
+     },
+     {
+          "App": "APP4-cost1500",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13468,
+               13197,
+               15171,
+               12469,
+               15097,
+               15449,
+               12440,
+               15097,
+               15452,
+               13511
+          ]
+     },
+     {
+          "App": "APP4-cost1820",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               10447,
+               11083,
+               11511,
+               13035,
+               11135,
+               11176,
+               11170,
+               11393,
+               10358,
+               11743
+          ]
+     },
+     {
+          "App": "APP4-cost1820",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               14664,
+               15198,
+               15100,
+               13732,
+               12608,
+               15611,
+               12540,
+               15323,
+               15670,
+               14781
+          ]
+     },
+     {
+          "App": "APP4-cost1950",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               12554,
+               11148,
+               12451,
+               10398,
+               11860,
+               11262,
+               10609,
+               13083,
+               11845,
+               12105
+          ]
+     },
+     {
+          "App": "APP4-cost1950",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               17354,
+               15241,
+               15444,
+               17727,
+               16003,
+               12576,
+               15850,
+               15942,
+               13847,
+               12760
+          ]
+     },
+     {
+          "App": "APP4-cost2400",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               12617,
+               13579,
+               10543,
+               11930,
+               12649,
+               11986,
+               12720,
+               12121,
+               12199,
+               11574
+          ]
+     },
+     {
+          "App": "APP4-cost2400",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13730,
+               15230,
+               13904,
+               12879,
+               15332,
+               13913,
+               12881,
+               15365,
+               13936,
+               12920
+          ]
+     },
+     {
+          "App": "APP4-acr1",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               12122,
+               12182,
+               13511,
+               11503,
+               11532,
+               11590,
+               10606,
+               12159,
+               12264,
+               10635
+          ]
+     },
+     {
+          "App": "APP4-acr1",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               16158,
+               12732,
+               15749,
+               15370,
+               13880,
+               13927,
+               12818,
+               15890,
+               14493,
+               14450
+          ]
+     },
+     {
+          "App": "APP4-acr2",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               13119,
+               10671,
+               12941,
+               11588,
+               11598,
+               10670,
+               12015,
+               13730,
+               11585,
+               11694
+          ]
+     },
+     {
+          "App": "APP4-acr2",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               13846,
+               15353,
+               13826,
+               14948,
+               12930,
+               15506,
+               13972,
+               14718,
+               14031,
+               13010
+          ]
+     },
+     {
+          "App": "APP4-acr3",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               12412,
+               11580,
+               11368,
+               12880,
+               12091,
+               12872,
+               12137,
+               12960,
+               12233,
+               12202
+          ]
+     },
+     {
+          "App": "APP4-acr3",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               14092,
+               14034,
+               13002,
+               14559,
+               15547,
+               14049,
+               12949,
+               16043,
+               14585,
+               15449
+          ]
+     },
+     {
+          "App": "APP4-acr4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               11620,
+               13239,
+               10723,
+               12214,
+               12989,
+               12303,
+               12267,
+               12177,
+               13860,
+               11736
+          ]
+     },
+     {
+          "App": "APP4-acr4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               14887,
+               13946,
+               13875,
+               15451,
+               14124,
+               13079,
+               14619,
+               15622,
+               12955,
+               15978
+          ]
+     },
+     {
+          "App": "APP2-acr1",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               7688,
+               6126,
+               6063,
+               6830,
+               6050,
+               6762,
+               6840,
+               6013,
+               6693,
+               7518
+          ]
+     },
+     {
+          "App": "APP2-acr1",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               8836,
+               8066,
+               7222,
+               8025,
+               8339,
+               9159,
+               8393,
+               10178,
+               7421,
+               8529
+          ]
+     },
+     {
+          "App": "APP2-acr2",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               6876,
+               6295,
+               6068,
+               6789,
+               6845,
+               6051,
+               6726,
+               7776,
+               7410,
+               6538
+          ]
+     },
+     {
+          "App": "APP2-acr2",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               8850,
+               8874,
+               7183,
+               7884,
+               8538,
+               9551,
+               7235,
+               7952,
+               7918,
+               8689
+          ]
+     },
+     {
+          "App": "APP2-acr3",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               6877,
+               6763,
+               6705,
+               7516,
+               6879,
+               6075,
+               6792,
+               6746,
+               7565,
+               6054
+          ]
+     },
+     {
+          "App": "APP2-acr3",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               8172,
+               7229,
+               8953,
+               7225,
+               7921,
+               8621,
+               9611,
+               7271,
+               8029,
+               7937
+          ]
+     },
+     {
+          "App": "APP2-acr4",
+          "Provider": "../Providers/ProvidersGKP400-10.json",
+          "TimeList": [
+               5380,
+               6748,
+               7558,
+               6027,
+               7511,
+               6852,
+               6063,
+               6837,
+               6884,
+               6065
+          ]
+     },
+     {
+          "App": "APP2-acr4",
+          "Provider": "../Providers/ProvidersGKP500-10.json",
+          "TimeList": [
+               9752,
+               7237,
+               7919,
+               8650,
+               8807,
+               7160,
+               9600,
+               7233,
+               7983,
+               8844
+          ]
+     }
+]

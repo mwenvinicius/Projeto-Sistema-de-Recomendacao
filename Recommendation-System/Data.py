@@ -38,7 +38,7 @@ for Path, SubPastas, Arquivos in os.walk(Path):
             Providers.append('../'+String)
         elif("Results" in String):
             ResultsData.append('../'+String)
-        elif("Data-Monitoring" in String):
+        elif("gerador/APP" in String):
             MonitoringData.append('../'+String)
         elif("NewProviders" in String):
             NewProviders.append('../'+String)
