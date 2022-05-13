@@ -36,7 +36,7 @@ for Path, SubPastas, Arquivos in os.walk(Path):
             Aplications.append('../'+String)
         elif("Providers/Providers" in String):
             Providers.append('../'+String)
-        elif("Results" in String):
+        elif("resultData" in String):
             ResultsData.append('../'+String)
         elif("gerador/APP" in String):
             MonitoringData.append('../'+String)
