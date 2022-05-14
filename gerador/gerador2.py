@@ -40,9 +40,9 @@ class Monitoramento():
         self.vaiProCaso()
         self.montar()
         self.salvarArqGestao()
-        print(self.date_initial, self.date_final)
-        for i in self.microsservices:
-            print(i)
+
+        """ for i in self.microsservices:
+            print(i) """
         
     def abreArq(self):
         # Função que abre o arquivo result e transfere seus dados aos atributos da classe
@@ -50,8 +50,8 @@ class Monitoramento():
         self.name_app = self.result["App"]
         self.microsservices = [ i for i in self.result['Resultados'] ] # For que coloca os Micro
         
-        for i in self.microsservices:
-            print(i) 
+        """ for i in self.microsservices:
+            print(i)  """
 
         print()
 
