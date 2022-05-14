@@ -1,0 +1,1355 @@
+{
+     "NameFile": "./requisito/APP1-a80_MS5_PP41.json",
+     "NameAPP": "APP1-a80",
+     "NameOfMicroService": 5,
+     "Provider": "P41",
+     "Availability": 0.99,
+     "Cost": 82,
+     "ResponseTime": 20,
+     "Monitoring": [
+          {
+               "Date": "2020-12-22",
+               "Time": "00:00:00",
+               "Availability": 1.0,
+               "Cost": 152.59,
+               "ResponseTime": 11.02
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "00:30:00",
+               "Availability": 1.0,
+               "Cost": 94.02,
+               "ResponseTime": 14.05
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "01:00:00",
+               "Availability": 0.99,
+               "Cost": 188.94,
+               "ResponseTime": 5.58
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "01:30:00",
+               "Availability": 1.0,
+               "Cost": 226.12,
+               "ResponseTime": 19.33
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "02:00:00",
+               "Availability": 0.99,
+               "Cost": 93.1,
+               "ResponseTime": 16.24
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "02:30:00",
+               "Availability": 0.99,
+               "Cost": 244.21,
+               "ResponseTime": 19.49
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "03:00:00",
+               "Availability": 0.99,
+               "Cost": 169.53,
+               "ResponseTime": 6.65
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "03:30:00",
+               "Availability": 0.99,
+               "Cost": 152.83,
+               "ResponseTime": 15.47
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "04:00:00",
+               "Availability": 0.99,
+               "Cost": 141.82,
+               "ResponseTime": 13.21
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "04:30:00",
+               "Availability": 0.99,
+               "Cost": 226.37,
+               "ResponseTime": 2.45
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "05:00:00",
+               "Availability": 0.99,
+               "Cost": 98.46,
+               "ResponseTime": 6.75
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "05:30:00",
+               "Availability": 0.99,
+               "Cost": 116.2,
+               "ResponseTime": 16.63
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "06:00:00",
+               "Availability": 1.0,
+               "Cost": 175.62,
+               "ResponseTime": 3.34
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "06:30:00",
+               "Availability": 0.99,
+               "Cost": 97.17,
+               "ResponseTime": 3.02
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "07:00:00",
+               "Availability": 0.99,
+               "Cost": 82.29,
+               "ResponseTime": 15.12
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "07:30:00",
+               "Availability": 1.0,
+               "Cost": 100.54,
+               "ResponseTime": 1.49
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "08:00:00",
+               "Availability": 0.99,
+               "Cost": 166.87,
+               "ResponseTime": 11.69
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "08:30:00",
+               "Availability": 0.99,
+               "Cost": 227.83,
+               "ResponseTime": 0.78
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "09:00:00",
+               "Availability": 1.0,
+               "Cost": 109.31,
+               "ResponseTime": 3.59
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "09:30:00",
+               "Availability": 1.0,
+               "Cost": 227.04,
+               "ResponseTime": 5.01
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "10:00:00",
+               "Availability": 1.0,
+               "Cost": 137.43,
+               "ResponseTime": 6.83
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "10:30:00",
+               "Availability": 1.0,
+               "Cost": 208.16,
+               "ResponseTime": 10.91
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "11:00:00",
+               "Availability": 1.0,
+               "Cost": 115.86,
+               "ResponseTime": 12.63
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "11:30:00",
+               "Availability": 1.0,
+               "Cost": 179.67,
+               "ResponseTime": 12.29
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "12:00:00",
+               "Availability": 1.0,
+               "Cost": 86.62,
+               "ResponseTime": 12.0
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "12:30:00",
+               "Availability": 1.0,
+               "Cost": 109.96,
+               "ResponseTime": 11.3
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "13:00:00",
+               "Availability": 1.0,
+               "Cost": 178.68,
+               "ResponseTime": 16.3
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "13:30:00",
+               "Availability": 1.0,
+               "Cost": 114.64,
+               "ResponseTime": 12.11
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "14:00:00",
+               "Availability": 0.99,
+               "Cost": 203.06,
+               "ResponseTime": 3.69
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "14:30:00",
+               "Availability": 0.99,
+               "Cost": 200.03,
+               "ResponseTime": 7.93
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "15:00:00",
+               "Availability": 1.0,
+               "Cost": 88.69,
+               "ResponseTime": 8.4
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "15:30:00",
+               "Availability": 0.99,
+               "Cost": 164.88,
+               "ResponseTime": 9.45
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "16:00:00",
+               "Availability": 0.99,
+               "Cost": 147.65,
+               "ResponseTime": 13.65
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "16:30:00",
+               "Availability": 1.0,
+               "Cost": 206.37,
+               "ResponseTime": 7.13
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "17:00:00",
+               "Availability": 0.99,
+               "Cost": 171.43,
+               "ResponseTime": 3.85
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "17:30:00",
+               "Availability": 0.99,
+               "Cost": 168.97,
+               "ResponseTime": 7.97
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "18:00:00",
+               "Availability": 1.0,
+               "Cost": 142.73,
+               "ResponseTime": 12.67
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "18:30:00",
+               "Availability": 0.99,
+               "Cost": 129.33,
+               "ResponseTime": 4.32
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "19:00:00",
+               "Availability": 0.99,
+               "Cost": 167.62,
+               "ResponseTime": 9.12
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "19:30:00",
+               "Availability": 0.99,
+               "Cost": 215.68,
+               "ResponseTime": 0.52
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "20:00:00",
+               "Availability": 0.99,
+               "Cost": 89.8,
+               "ResponseTime": 7.46
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "20:30:00",
+               "Availability": 1.0,
+               "Cost": 132.45,
+               "ResponseTime": 8.75
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "21:00:00",
+               "Availability": 1.0,
+               "Cost": 196.06,
+               "ResponseTime": 5.42
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "21:30:00",
+               "Availability": 0.99,
+               "Cost": 234.14,
+               "ResponseTime": 12.01
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "22:00:00",
+               "Availability": 0.99,
+               "Cost": 199.48,
+               "ResponseTime": 5.58
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "22:30:00",
+               "Availability": 0.99,
+               "Cost": 114.99,
+               "ResponseTime": 7.45
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "23:00:00",
+               "Availability": 1.0,
+               "Cost": 172.13,
+               "ResponseTime": 14.52
+          },
+          {
+               "Date": "2020-12-22",
+               "Time": "23:30:00",
+               "Availability": 0.99,
+               "Cost": 117.76,
+               "ResponseTime": 9.43
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "00:00:00",
+               "Availability": 1.0,
+               "Cost": 233.68,
+               "ResponseTime": 13.43
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "00:30:00",
+               "Availability": 0.99,
+               "Cost": 193.83,
+               "ResponseTime": 0.98
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "01:00:00",
+               "Availability": 0.99,
+               "Cost": 92.84,
+               "ResponseTime": 13.72
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "01:30:00",
+               "Availability": 1.0,
+               "Cost": 127.4,
+               "ResponseTime": 3.98
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "02:00:00",
+               "Availability": 0.99,
+               "Cost": 109.13,
+               "ResponseTime": 17.26
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "02:30:00",
+               "Availability": 1.0,
+               "Cost": 133.28,
+               "ResponseTime": 0.24
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "03:00:00",
+               "Availability": 1.0,
+               "Cost": 137.9,
+               "ResponseTime": 5.46
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "03:30:00",
+               "Availability": 1.0,
+               "Cost": 206.25,
+               "ResponseTime": 14.51
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "04:00:00",
+               "Availability": 0.99,
+               "Cost": 176.3,
+               "ResponseTime": 3.74
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "04:30:00",
+               "Availability": 1.0,
+               "Cost": 196.26,
+               "ResponseTime": 14.17
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "05:00:00",
+               "Availability": 1.0,
+               "Cost": 192.14,
+               "ResponseTime": 13.02
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "05:30:00",
+               "Availability": 0.99,
+               "Cost": 193.94,
+               "ResponseTime": 9.23
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "06:00:00",
+               "Availability": 1.0,
+               "Cost": 152.54,
+               "ResponseTime": 11.92
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "06:30:00",
+               "Availability": 1.0,
+               "Cost": 199.11,
+               "ResponseTime": 18.01
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "07:00:00",
+               "Availability": 0.99,
+               "Cost": 223.21,
+               "ResponseTime": 6.42
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "07:30:00",
+               "Availability": 0.99,
+               "Cost": 217.95,
+               "ResponseTime": 17.48
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "08:00:00",
+               "Availability": 0.99,
+               "Cost": 113.56,
+               "ResponseTime": 19.08
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "08:30:00",
+               "Availability": 1.0,
+               "Cost": 243.09,
+               "ResponseTime": 11.21
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "09:00:00",
+               "Availability": 1.0,
+               "Cost": 187.66,
+               "ResponseTime": 12.14
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "09:30:00",
+               "Availability": 1.0,
+               "Cost": 130.44,
+               "ResponseTime": 19.01
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "10:00:00",
+               "Availability": 0.99,
+               "Cost": 83.58,
+               "ResponseTime": 2.51
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "10:30:00",
+               "Availability": 1.0,
+               "Cost": 119.48,
+               "ResponseTime": 15.54
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "11:00:00",
+               "Availability": 1.0,
+               "Cost": 196.62,
+               "ResponseTime": 19.92
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "11:30:00",
+               "Availability": 0.99,
+               "Cost": 94.74,
+               "ResponseTime": 5.76
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "12:00:00",
+               "Availability": 1.0,
+               "Cost": 216.42,
+               "ResponseTime": 18.44
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "12:30:00",
+               "Availability": 0.99,
+               "Cost": 210.66,
+               "ResponseTime": 12.86
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "13:00:00",
+               "Availability": 0.99,
+               "Cost": 170.41,
+               "ResponseTime": 8.1
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "13:30:00",
+               "Availability": 1.0,
+               "Cost": 110.25,
+               "ResponseTime": 15.91
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "14:00:00",
+               "Availability": 1.0,
+               "Cost": 119.04,
+               "ResponseTime": 3.0
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "14:30:00",
+               "Availability": 0.99,
+               "Cost": 114.06,
+               "ResponseTime": 18.24
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "15:00:00",
+               "Availability": 1.0,
+               "Cost": 161.69,
+               "ResponseTime": 19.72
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "15:30:00",
+               "Availability": 0.99,
+               "Cost": 104.76,
+               "ResponseTime": 0.1
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "16:00:00",
+               "Availability": 1.0,
+               "Cost": 87.73,
+               "ResponseTime": 18.71
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "16:30:00",
+               "Availability": 1.0,
+               "Cost": 190.59,
+               "ResponseTime": 7.55
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "17:00:00",
+               "Availability": 1.0,
+               "Cost": 134.03,
+               "ResponseTime": 4.04
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "17:30:00",
+               "Availability": 0.99,
+               "Cost": 112.85,
+               "ResponseTime": 19.66
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "18:00:00",
+               "Availability": 1.0,
+               "Cost": 186.86,
+               "ResponseTime": 9.25
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "18:30:00",
+               "Availability": 1.0,
+               "Cost": 96.26,
+               "ResponseTime": 5.39
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "19:00:00",
+               "Availability": 1.0,
+               "Cost": 223.19,
+               "ResponseTime": 1.92
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "19:30:00",
+               "Availability": 0.99,
+               "Cost": 236.55,
+               "ResponseTime": 9.0
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "20:00:00",
+               "Availability": 0.99,
+               "Cost": 150.64,
+               "ResponseTime": 0.64
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "20:30:00",
+               "Availability": 0.99,
+               "Cost": 164.57,
+               "ResponseTime": 9.17
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "21:00:00",
+               "Availability": 0.99,
+               "Cost": 169.82,
+               "ResponseTime": 0.67
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "21:30:00",
+               "Availability": 1.0,
+               "Cost": 240.06,
+               "ResponseTime": 6.51
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "22:00:00",
+               "Availability": 0.99,
+               "Cost": 129.33,
+               "ResponseTime": 11.29
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "22:30:00",
+               "Availability": 0.99,
+               "Cost": 185.23,
+               "ResponseTime": 10.97
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "23:00:00",
+               "Availability": 0.99,
+               "Cost": 142.82,
+               "ResponseTime": 7.37
+          },
+          {
+               "Date": "2020-12-23",
+               "Time": "23:30:00",
+               "Availability": 1.0,
+               "Cost": 240.99,
+               "ResponseTime": 19.73
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "00:00:00",
+               "Availability": 0.99,
+               "Cost": 222.68,
+               "ResponseTime": 9.68
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "00:30:00",
+               "Availability": 0.99,
+               "Cost": 146.7,
+               "ResponseTime": 13.59
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "01:00:00",
+               "Availability": 0.99,
+               "Cost": 162.76,
+               "ResponseTime": 11.63
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "01:30:00",
+               "Availability": 0.99,
+               "Cost": 100.17,
+               "ResponseTime": 7.33
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "02:00:00",
+               "Availability": 1.0,
+               "Cost": 100.59,
+               "ResponseTime": 11.45
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "02:30:00",
+               "Availability": 1.0,
+               "Cost": 88.85,
+               "ResponseTime": 6.91
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "03:00:00",
+               "Availability": 0.99,
+               "Cost": 157.34,
+               "ResponseTime": 5.55
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "03:30:00",
+               "Availability": 1.0,
+               "Cost": 230.43,
+               "ResponseTime": 16.35
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "04:00:00",
+               "Availability": 1.0,
+               "Cost": 212.18,
+               "ResponseTime": 14.36
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "04:30:00",
+               "Availability": 0.99,
+               "Cost": 196.53,
+               "ResponseTime": 7.2
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "05:00:00",
+               "Availability": 0.99,
+               "Cost": 181.85,
+               "ResponseTime": 4.16
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "05:30:00",
+               "Availability": 0.99,
+               "Cost": 120.48,
+               "ResponseTime": 12.49
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "06:00:00",
+               "Availability": 0.99,
+               "Cost": 110.38,
+               "ResponseTime": 1.79
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "06:30:00",
+               "Availability": 1.0,
+               "Cost": 189.66,
+               "ResponseTime": 2.42
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "07:00:00",
+               "Availability": 0.99,
+               "Cost": 175.29,
+               "ResponseTime": 17.0
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "07:30:00",
+               "Availability": 1.0,
+               "Cost": 90.81,
+               "ResponseTime": 14.38
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "08:00:00",
+               "Availability": 0.99,
+               "Cost": 132.52,
+               "ResponseTime": 2.46
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "08:30:00",
+               "Availability": 0.99,
+               "Cost": 86.4,
+               "ResponseTime": 14.76
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "09:00:00",
+               "Availability": 0.99,
+               "Cost": 94.51,
+               "ResponseTime": 11.34
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "09:30:00",
+               "Availability": 1.0,
+               "Cost": 205.22,
+               "ResponseTime": 6.26
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "10:00:00",
+               "Availability": 1.0,
+               "Cost": 209.41,
+               "ResponseTime": 14.62
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "10:30:00",
+               "Availability": 1.0,
+               "Cost": 231.13,
+               "ResponseTime": 13.34
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "11:00:00",
+               "Availability": 1.0,
+               "Cost": 172.84,
+               "ResponseTime": 15.66
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "11:30:00",
+               "Availability": 1.0,
+               "Cost": 82.62,
+               "ResponseTime": 19.74
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "12:00:00",
+               "Availability": 1.0,
+               "Cost": 184.07,
+               "ResponseTime": 11.85
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "12:30:00",
+               "Availability": 1.0,
+               "Cost": 231.87,
+               "ResponseTime": 19.14
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "13:00:00",
+               "Availability": 1.0,
+               "Cost": 186.31,
+               "ResponseTime": 2.43
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "13:30:00",
+               "Availability": 0.99,
+               "Cost": 93.71,
+               "ResponseTime": 6.88
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "14:00:00",
+               "Availability": 0.99,
+               "Cost": 202.78,
+               "ResponseTime": 12.13
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "14:30:00",
+               "Availability": 1.0,
+               "Cost": 167.37,
+               "ResponseTime": 11.4
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "15:00:00",
+               "Availability": 0.99,
+               "Cost": 121.63,
+               "ResponseTime": 6.71
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "15:30:00",
+               "Availability": 0.99,
+               "Cost": 155.83,
+               "ResponseTime": 7.38
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "16:00:00",
+               "Availability": 1.0,
+               "Cost": 154.82,
+               "ResponseTime": 18.2
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "16:30:00",
+               "Availability": 1.0,
+               "Cost": 231.83,
+               "ResponseTime": 1.26
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "17:00:00",
+               "Availability": 0.99,
+               "Cost": 162.72,
+               "ResponseTime": 18.33
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "17:30:00",
+               "Availability": 0.99,
+               "Cost": 91.29,
+               "ResponseTime": 5.84
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "18:00:00",
+               "Availability": 1.0,
+               "Cost": 182.51,
+               "ResponseTime": 9.26
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "18:30:00",
+               "Availability": 0.99,
+               "Cost": 188.76,
+               "ResponseTime": 17.24
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "19:00:00",
+               "Availability": 1.0,
+               "Cost": 200.51,
+               "ResponseTime": 13.63
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "19:30:00",
+               "Availability": 1.0,
+               "Cost": 106.1,
+               "ResponseTime": 16.33
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "20:00:00",
+               "Availability": 0.99,
+               "Cost": 146.27,
+               "ResponseTime": 8.06
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "20:30:00",
+               "Availability": 1.0,
+               "Cost": 174.27,
+               "ResponseTime": 8.92
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "21:00:00",
+               "Availability": 1.0,
+               "Cost": 243.83,
+               "ResponseTime": 14.74
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "21:30:00",
+               "Availability": 1.0,
+               "Cost": 95.64,
+               "ResponseTime": 13.85
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "22:00:00",
+               "Availability": 0.99,
+               "Cost": 149.32,
+               "ResponseTime": 0.46
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "22:30:00",
+               "Availability": 0.99,
+               "Cost": 177.6,
+               "ResponseTime": 0.23
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "23:00:00",
+               "Availability": 0.99,
+               "Cost": 115.65,
+               "ResponseTime": 17.44
+          },
+          {
+               "Date": "2020-12-24",
+               "Time": "23:30:00",
+               "Availability": 0.99,
+               "Cost": 184.57,
+               "ResponseTime": 15.67
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "00:00:00",
+               "Availability": 0.99,
+               "Cost": 200.57,
+               "ResponseTime": 8.03
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "00:30:00",
+               "Availability": 0.99,
+               "Cost": 99.59,
+               "ResponseTime": 11.78
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "01:00:00",
+               "Availability": 1.0,
+               "Cost": 236.34,
+               "ResponseTime": 3.59
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "01:30:00",
+               "Availability": 1.0,
+               "Cost": 98.45,
+               "ResponseTime": 5.99
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "02:00:00",
+               "Availability": 1.0,
+               "Cost": 240.07,
+               "ResponseTime": 18.25
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "02:30:00",
+               "Availability": 1.0,
+               "Cost": 227.0,
+               "ResponseTime": 2.66
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "03:00:00",
+               "Availability": 1.0,
+               "Cost": 94.25,
+               "ResponseTime": 12.62
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "03:30:00",
+               "Availability": 1.0,
+               "Cost": 213.24,
+               "ResponseTime": 9.69
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "04:00:00",
+               "Availability": 0.99,
+               "Cost": 89.62,
+               "ResponseTime": 4.78
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "04:30:00",
+               "Availability": 0.99,
+               "Cost": 92.16,
+               "ResponseTime": 12.32
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "05:00:00",
+               "Availability": 1.0,
+               "Cost": 129.88,
+               "ResponseTime": 9.1
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "05:30:00",
+               "Availability": 1.0,
+               "Cost": 213.93,
+               "ResponseTime": 17.29
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "06:00:00",
+               "Availability": 1.0,
+               "Cost": 166.17,
+               "ResponseTime": 4.1
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "06:30:00",
+               "Availability": 1.0,
+               "Cost": 146.61,
+               "ResponseTime": 9.18
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "07:00:00",
+               "Availability": 1.0,
+               "Cost": 129.2,
+               "ResponseTime": 17.95
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "07:30:00",
+               "Availability": 0.99,
+               "Cost": 107.78,
+               "ResponseTime": 17.63
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "08:00:00",
+               "Availability": 0.99,
+               "Cost": 95.26,
+               "ResponseTime": 2.01
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "08:30:00",
+               "Availability": 1.0,
+               "Cost": 153.84,
+               "ResponseTime": 8.94
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "09:00:00",
+               "Availability": 1.0,
+               "Cost": 196.6,
+               "ResponseTime": 12.89
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "09:30:00",
+               "Availability": 0.99,
+               "Cost": 153.62,
+               "ResponseTime": 10.37
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "10:00:00",
+               "Availability": 1.0,
+               "Cost": 181.73,
+               "ResponseTime": 17.56
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "10:30:00",
+               "Availability": 1.0,
+               "Cost": 245.47,
+               "ResponseTime": 18.53
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "11:00:00",
+               "Availability": 1.0,
+               "Cost": 242.56,
+               "ResponseTime": 6.49
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "11:30:00",
+               "Availability": 0.99,
+               "Cost": 238.79,
+               "ResponseTime": 18.68
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "12:00:00",
+               "Availability": 0.99,
+               "Cost": 161.41,
+               "ResponseTime": 8.57
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "12:30:00",
+               "Availability": 0.99,
+               "Cost": 145.14,
+               "ResponseTime": 9.08
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "13:00:00",
+               "Availability": 0.99,
+               "Cost": 213.41,
+               "ResponseTime": 17.92
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "13:30:00",
+               "Availability": 0.99,
+               "Cost": 244.46,
+               "ResponseTime": 9.06
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "14:00:00",
+               "Availability": 1.0,
+               "Cost": 245.94,
+               "ResponseTime": 19.93
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "14:30:00",
+               "Availability": 0.99,
+               "Cost": 110.91,
+               "ResponseTime": 14.28
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "15:00:00",
+               "Availability": 1.0,
+               "Cost": 180.3,
+               "ResponseTime": 13.64
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "15:30:00",
+               "Availability": 1.0,
+               "Cost": 150.05,
+               "ResponseTime": 4.64
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "16:00:00",
+               "Availability": 1.0,
+               "Cost": 208.99,
+               "ResponseTime": 7.03
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "16:30:00",
+               "Availability": 0.99,
+               "Cost": 96.53,
+               "ResponseTime": 11.73
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "17:00:00",
+               "Availability": 0.99,
+               "Cost": 111.76,
+               "ResponseTime": 18.28
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "17:30:00",
+               "Availability": 1.0,
+               "Cost": 173.68,
+               "ResponseTime": 18.46
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "18:00:00",
+               "Availability": 0.99,
+               "Cost": 166.65,
+               "ResponseTime": 14.23
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "18:30:00",
+               "Availability": 1.0,
+               "Cost": 202.17,
+               "ResponseTime": 12.99
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "19:00:00",
+               "Availability": 1.0,
+               "Cost": 183.6,
+               "ResponseTime": 11.45
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "19:30:00",
+               "Availability": 1.0,
+               "Cost": 187.42,
+               "ResponseTime": 6.87
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "20:00:00",
+               "Availability": 1.0,
+               "Cost": 144.26,
+               "ResponseTime": 7.39
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "20:30:00",
+               "Availability": 1.0,
+               "Cost": 128.68,
+               "ResponseTime": 19.4
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "21:00:00",
+               "Availability": 1.0,
+               "Cost": 103.64,
+               "ResponseTime": 10.99
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "21:30:00",
+               "Availability": 0.99,
+               "Cost": 134.19,
+               "ResponseTime": 1.97
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "22:00:00",
+               "Availability": 0.99,
+               "Cost": 197.22,
+               "ResponseTime": 12.5
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "22:30:00",
+               "Availability": 0.99,
+               "Cost": 104.9,
+               "ResponseTime": 0.85
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "23:00:00",
+               "Availability": 0.99,
+               "Cost": 166.34,
+               "ResponseTime": 1.14
+          },
+          {
+               "Date": "2020-12-25",
+               "Time": "23:30:00",
+               "Availability": 1.0,
+               "Cost": 127.9,
+               "ResponseTime": 9.81
+          }
+     ]
+}

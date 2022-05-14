@@ -1,0 +1,11 @@
+{
+     "Pasta": "./pior",
+     "NomesArqs": [
+          "./pior/APP1-a80_MS0_PP22.json",
+          "./pior/APP1-a80_MS1_PP22.json",
+          "./pior/APP1-a80_MS2_PP39.json",
+          "./pior/APP1-a80_MS3_PP22.json",
+          "./pior/APP1-a80_MS4_PP5.json",
+          "./pior/APP1-a80_MS5_PP41.json"
+     ]
+}

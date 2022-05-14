@@ -140,11 +140,6 @@ def generate( data ):
 # Leitura dos dados do arquivo Result:
 aux = loadFile('resultData.json')[0] # Carrega dados de um App do arquivo results.
 
-""" app = {
-    "NameApp": aux["App"],
-    "MicroServices": [ i for i in aux['Resultados'] ] # For que coloca os Micro
-} """
-
 '''
     A variável CASE indica qual o situação será gerada.
     
@@ -192,4 +187,3 @@ data = {
 }
 
 generate(data)
-#

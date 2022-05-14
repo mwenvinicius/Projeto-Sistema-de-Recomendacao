@@ -40,11 +40,6 @@ def openFiles( app ):
 
         Files.append( oneFile ) 
     
-    """   
-    for j in Files:
-        print(j)
-        print() """
-    
     return Files
 
 
