@@ -1,38 +1,52 @@
 '''
-Autor: Vinícius
-Data: 14/04/2022
+Autor: Vinícius Dias Batista.
+Data: 08/05/2022
 '''
-from ast import In
 import json
-from datetime import datetime
 
-Nome = "Dados.json"
-with open(Nome,"r",encoding="utf-8") as data_file:
+from prompt_toolkit import Application
+
+NomeArquivo = "Dados.json"
+with open(NomeArquivo,"r",encoding="utf-8") as data_file:
     Dados = json.load(data_file)
 
-# Applications = Dados["Applications"]
-Monitored = Dados["MonitoringData"]
+SelectionsResults = Dados["ResultsData"]
 
+NomeArquivo2 = SelectionsResults[0]
+with open(NomeArquivo2,"r",encoding="utf-8") as data_file:
+    ApplicationData = json.load(data_file)
 '''
-# print(Applications)
-# print("Quantidade de Applicações: %d."%(len(Applications)))
-for X in Applications: 
-    with open(X,"r",encoding="utf-8") as data_file:
-        App = json.load(data_file)
-    for NameApp in App:
-        print(NameApp["app"])
-        print("# Microsservices:")
-        for Microsservices in NameApp["microservices"]:
-            print(Microsservices["nameMS"])
-    print("")
+MicrosservicesMD = [] # Arquivos Dados de Monitoramento dos Microsserviços.
+for Application in ApplicationData:
+    print(Application["App"])
 '''
 
-print(Monitored)
+# Função definida para procurar arquivos de monitoramento dos microsserviços pelo nome do APP.
+def GetMicroservicesMonitoringFiles(ApplicationResultsData,FilesMonitoring):
+    MMF = []
+    for Application in ApplicationResultsData:
+        LF = []
+        for File in FilesMonitoring:
+            if Application['App'] in File:
+                LF.append(File)
+        AppMMF = {
+            "AppName":Application['App'],
+            "MMFilesApp":LF
+        }
+        MMF.append(AppMMF)
+    return MMF
 
-for DataAPPs in Monitored:
-    with open(DataAPPs,"r",encoding="utf-8") as data_file:
-        MSData = json.load(data_file)
-    for M in MSData:
+def ReadingDataFromMicroservices(MMFiles):
+    DMM = []
+    for File in MMFiles:
+        with open(File,"r",encoding="utf-8") as data_file:
+            Data = json.load(data_file)
+        DMM.append(Data)
+    return DMM
+
+def AnalysisOfAMicroservice(MMS):
+    Data = []
+    for M in MMS:
         PA = M["Availability"]
         PC = M["Cost"]
         PRT = M["ResponseTime"]
@@ -80,6 +94,9 @@ for DataAPPs in Monitored:
                 LOW["ResponseTime"] += 1
                 R += 6
             
+            Tupla = (I["Availability"],I["Cost"],I["ResponseTime"])
+            Data.append(Tupla)
+
             if R > 0:
                 XRT.append(L["ResponseTime"])
                 StringNew = I["Date"]+I["Time"]
@@ -115,5 +132,26 @@ for DataAPPs in Monitored:
         PerA  = LOW["Availability"] / (Qnt/100)
         PerC  = LOW["Cost"] / (Qnt/100)
         PerRT = LOW["ResponseTime"] / (Qnt/100)
-        print(Interval)
+        # print(Interval)
         # print(PerA,PerC,PerRT)
+        Percentual = (PerA,PerC,PerRT)
+    # O que vou retornar nessa função ?
+    # print(Data)
+    return [Interval,Percentual,Data]
+
+def ApplicationAnalysis(DataAPP):
+    MonitoringFiles = ReadingDataFromMicroservices(DataAPP["MMFilesApp"])
+    DataMMF = []
+    for I in MonitoringFiles:
+        Results = AnalysisOfAMicroservice(I)
+        DataMMF.append(Results[2])
+    print(len(DataMMF))
+
+
+# print(GetMicroservicesMonitoringFiles(ApplicationData,Dados["MonitoringData"]))
+X = GetMicroservicesMonitoringFiles(ApplicationData,Dados["MonitoringData"])
+Y = ReadingDataFromMicroservices(X[0]["MMFilesApp"])
+# print(Y)
+# print(X)
+# print(AnalysisOfAMicroservice(Y[0]))
+ApplicationAnalysis(X[0])
