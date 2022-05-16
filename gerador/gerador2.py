@@ -12,56 +12,52 @@ from horarios import *
 
 
 
-class Monitoramento():
+class Gerador():
 
-    def __init__(self):
+    def __init__(self, indice=0):
         self.date_initial = None #........ Data inicial do monitoramento
         self.date_final = None #.......... Data final do monitoramento
-        self.monitoramento = None #....... Aqui será guardado o monitoramento
         self.name_app = None #............ Nome do app;
         self.microsservices = None #...... Microsserviços extraídos do arquivo result;
         self.pasta = None #............... Pasta onde será salvo o caminho;
         self.case = 0 #................... Caso a ser gerado que será selecionado na função selectCase()
         self.result = None #.............. Aqui estarão os dados do arquivo resultData.json 
         self.intervalo = 15 #............. Intervalo em minutos, setado em 15 minutos.
+        self.indice = indice #............ Indice onde o app se encontra no vetor presente no arquivo results
         self.arquivos = {
             'Pasta': '',
             'NomesArqs': [] } #........... Aqui serão salvos as informações sobre os arquivos de salvamento.
         
-        self.sequencia() #................ Faz a chamada das funções.
+        #self.sequencia() #................ Faz a chamada das funções.
 
     def sequencia(self):
-        self.abreArq()
-        self.selecionarIntervalo()
-        self.selecionarDatas()
-        self.selecionarPasta()
+        #self.abreArq()
+        #self.selecionarIntervalo()
+        #self.selecionarDatas()
+        #self.selecionarPasta()
+        self.abrirPastaPadrao()
         self.abrirArqDados()
-        self.selectCase()
+        #self.selectCase()
         self.vaiProCaso()
         self.montar()
         self.salvarArqGestao()
 
-        """ for i in self.microsservices:
-            print(i) """
+        print('Gerado! ;)')
         
     def abreArq(self):
         # Função que abre o arquivo result e transfere seus dados aos atributos da classe
-        self.result = loadFile('resultData.json')[0]
+        self.result = loadFile('resultData.json')[self.indice]
         self.name_app = self.result["App"]
         self.microsservices = [ i for i in self.result['Resultados'] ] # For que coloca os Micro
-        
-        """ for i in self.microsservices:
-            print(i)  """
-
-        print()
 
     def selecionarIntervalo(self):
         self.intervalo = int(input('Digite o intervalo (em min): '))
+        print('\n\n')
 
     def selecionarDatas(self):
         # Função que solicitará ao usuario que ele digite as datas, tanto a inicial como a final.
         print('-'*60)
-        print('\tSelecionar datas: ')
+        print(f'Selecionar datas para o monitoramento {self.name_app}: ')
         print('-'*60)
 
         trava = 0
@@ -84,12 +80,18 @@ class Monitoramento():
 
         print('\n\n')
 
+    def abrirPastaPadrao(self):
+        if os.path.exists(self.name_app) == False:
+            os.makedirs(self.name_app)
+        
+        self.arquivos['Pasta'] = self.name_app
+
     def selecionarPasta(self):
         trava = 0
 
         while(trava != 1):
 
-            if( int(input('Deseja selecionar a pasta (1 - Sim, 0 - Não): ')) == 1 ):
+            if( int(input('Deseja abrir uma pasta para salvar os dados? (1 - Sim, 0 - Não): ')) == 1 ):
                 pasta = input('Digite o nome da pasta que deseja salvar os arquivos: ')
                 pasta = './'+pasta
             
@@ -118,6 +120,8 @@ class Monitoramento():
             "Availability": self.microsservices[indice]['Ava'],
             "Cost": self.microsservices[indice]['Cost'],
             "ResponseTime": self.microsservices[indice]['RT'],
+            "Data_Inicial": str(self.date_initial),
+            "Data_Final": str(self.date_final),
             "Monitoring": [] 
         }
         
@@ -135,7 +139,7 @@ class Monitoramento():
     def selectCase(self):
         # Função que solicitará ao usuário que ele selecione os casos a serem gerados.
         print('-'*60)
-        print('\tSelecionar o caso a ser gerado: ')
+        print(f'Selecionar o caso a ser gerado para o app >>{self.name_app}<<: ')
         print('-'*60)
         print('Caso 1 = Todos os requisitos são atendidos.')
         print('Caso 2 = Nenhum dos requisitos são atendidos.')
@@ -249,6 +253,7 @@ class Monitoramento():
 
         selecionados = [ int(x) for x in lista ]
         self.casos_requisitos(selecionados)
+        print('\n\n')
 
     def casos_requisitos(self, selecionados):
         for indice, i in enumerate(self.microsservices):
@@ -256,6 +261,7 @@ class Monitoramento():
 
     def requisito(self, selecionados, indice):
         limite = {}
+
         if( 1 in selecionados ):
             limite['Availability'] = {
                 'Inicio':  0.0,
@@ -278,7 +284,6 @@ class Monitoramento():
                 'Final': float(self.microsservices[indice]['Cost'])
             }
         
-
         if( 3 in selecionados ):
             limite['ResponseTime'] = {
                 'Inicio': float(self.microsservices[indice]['RT']), 
@@ -300,17 +305,16 @@ class Monitoramento():
             
             aux = copy.deepcopy(self.date_initial)
             
+            nome = self.arquivos['NomesArqs'][indice]
+            arq = loadFile(nome)
+            
+            print(f"Gerando para o microsserviço: {self.microsservices[indice]['MS']}")
+
             while( compareDate(aux, self.date_final) == False ):
-                
-                print(aux, end='---- ')
-                print(indice)
-
-                nome = self.arquivos['NomesArqs'][indice]
-                arq = loadFile(nome)
                 arq = self.gerar(arq, i, aux)
-                saveFinalFile(nome, lido=arq)
-
                 aux = avancaTempo(aux, self.intervalo)
+            
+            saveFinalFile(nome, lido=arq)
             print()
 
     def gerar(self, arq, ms, data):
@@ -348,9 +352,19 @@ class Monitoramento():
 
     def salvarArqGestao(self):
         nome = self.arquivos['Pasta']+'/gestao.json'
+
+        if self.case == 1:
+            self.arquivos['Case'] = [1, 'Melhor Caso']
+        elif self.case == 2:
+            self.arquivos['Case'] = [2, 'Pior Caso']
+        elif self.case == 3:
+            self.arquivos['Case'] = [3, 'Caso Aleatório']
+        elif self.case == 4:
+            self.arquivos['Case'] = [4, 'Requisito selecionado']
+
         saveFinalFile(nameARQ=nome, lido=self.arquivos)
 
 
 
-if __name__ == '__main__':
-    Monitoramento()
+""" if __name__ == '__main__':
+    Monitoramento() """
