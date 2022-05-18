@@ -1,25 +1,6 @@
 {
      "Applications": [
-          "../Applications/Application3-acr.json",
-          "../Applications/Application5-rt.json",
-          "../Applications/Application5-acr.json",
-          "../Applications/Application4-cost.json",
-          "../Applications/Application1-cost.json",
-          "../Applications/Application2-cost.json",
-          "../Applications/Application3-ability.json",
-          "../Applications/Application3-cost.json",
-          "../Applications/Application4-rt.json",
-          "../Applications/Application2-rt.json",
-          "../Applications/Application5-cost.json",
-          "../Applications/Application2-ability.json",
-          "../Applications/Application1-rt.json",
-          "../Applications/Application1-ability.json",
-          "../Applications/Application4-ability.json",
-          "../Applications/Application2-acr.json",
-          "../Applications/Application4-acr.json",
-          "../Applications/Application3-rt.json",
-          "../Applications/Application5-ability.json",
-          "../Applications/Application1-acr.json"
+          "../Applications/Application1-ability.json"  
      ],
      "Providers": [
           "../Providers/ProvidersGKP50-15.json",
@@ -27,21 +8,13 @@
           "../Providers/ProvidersGKP50-30.json",
           "../Providers/ProvidersGKP80-10.json",
           "../Providers/ProvidersGKP300-10.json",
-          "../Providers/ProvidersGKP50-20.json",
-          "../Providers/ProvidersGKP100-10.json",
-          "../Providers/ProvidersGKP50-10.json",
-          "../Providers/ProvidersGKP90-10.json",
-          "../Providers/ProvidersGKP100-40.json",
-          "../Providers/ProvidersGKP400-10.json",
-          "../Providers/ProvidersGKP70-10.json",
-          "../Providers/ProvidersGKP500-10.json",
-          "../Providers/ProvidersGKP50-25.json",
-          "../Providers/ProvidersGKP100-30.json",
-          "../Providers/ProvidersGKP60-10.json",
-          "../Providers/ProvidersGKP100-20.json"
+          "../Providers/ProvidersGKP50-20.json"
      ],
      "ResultsData": [
-          "../gerador/resultData.json"
+          "../GLM2K/resultData.json",
+          "../gerador/resultData.json",
+          "../Recommendation-System/resultData.json",
+          "../Recommendation-System/Arquivos/resultData.json"
      ],
      "MonitoringData": [
           "../gerador/APP1-a80_MS2_P39.json",
@@ -51,7 +24,9 @@
           "../gerador/APP1-a80_MS3_P22.json",
           "../gerador/APP1-a80_MS1_P22.json"
      ],
-     "NewProviders": [],
+     "NewProviders": [
+          "../NewProviders/NewProviders-01.json"
+     ],
      "Interations": [
           "../Interations/APP1-iterations-1.json",
           "../Interations/APP3-iterations-1.json",

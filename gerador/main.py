@@ -36,7 +36,7 @@ def selecionarPasta():
 
 
 
-results = loadFile('resultData.json')
+results = loadFile('../Recommendation-System/resultData.json')
 apps = abrirApps(results)
 gerarTodos(apps)
 

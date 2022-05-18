@@ -5,7 +5,7 @@ from dateutil import rrule
 import random
 import os
 
-from scipy import rand
+# from scipy import rand
 
 from arquivo import *
 from horarios import *

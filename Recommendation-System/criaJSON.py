@@ -20,7 +20,7 @@ def salvar(nameARQ, lido):
 
 
 def executionTime( namePrvd, timeList, app ):
-    nameARQ = "executionTime.json"
+    nameARQ = "executionTime-RS.json"
     lido = carregar(nameARQ)
     data = {
         "App": str(app),
@@ -33,7 +33,7 @@ def executionTime( namePrvd, timeList, app ):
 
 
 def candServData(namePrvd, MatIn, app):
-    nameARQ = "candServData.json"
+    nameARQ = "candServData-RS.json"
     lido = carregar(nameARQ)
     data = {
         "App": str(app),
@@ -61,7 +61,7 @@ def candServData(namePrvd, MatIn, app):
 
 
 def allCandServData(namePrvd,MatAll,app):
-    nameARQ = "allCandServData.json"
+    nameARQ = "allCandServData-RS.json"
     lido = carregar(nameARQ)
     data = {
         "App": str(app),
@@ -99,7 +99,7 @@ def CriaD(data):
 
  
 def resultData(namePrvd,DataList,Lista,app):
-    nameARQ = "resultData.json"
+    nameARQ = "resultData-RS.json"
     lido = carregar(nameARQ)
     dataAll = {
     	"App": str(app),
