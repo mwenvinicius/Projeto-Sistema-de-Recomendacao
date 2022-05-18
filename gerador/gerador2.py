@@ -81,10 +81,15 @@ class Gerador():
         print('\n\n')
 
     def abrirPastaPadrao(self):
-        if os.path.exists(self.name_app) == False:
-            os.makedirs(self.name_app)
+        if os.path.exists('dados') == False:
+            os.makedirs('dados')
+
+        pasta2 = (f'./dados/{self.name_app}')
+
+        if os.path.exists(pasta2) == False:
+            os.makedirs(pasta2)
         
-        self.arquivos['Pasta'] = self.name_app
+        self.arquivos['Pasta'] = pasta2
 
     def selecionarPasta(self):
         trava = 0
