@@ -4,8 +4,6 @@ Data: 08/05/2022
 '''
 import json
 
-from prompt_toolkit import Application
-
 NomeArquivo = "Dados.json"
 with open(NomeArquivo,"r",encoding="utf-8") as data_file:
     Dados = json.load(data_file)
@@ -143,15 +141,21 @@ def ApplicationAnalysis(DataAPP):
     MonitoringFiles = ReadingDataFromMicroservices(DataAPP["MMFilesApp"])
     DataMMF = []
     for I in MonitoringFiles:
+        
         Results = AnalysisOfAMicroservice(I)
         DataMMF.append(Results[2])
-    print(len(DataMMF))
 
+def GetTime(MS):
+    Time = []
+    for I in MS[0]['Monitoring']:
+        T = I['Date']+I['Time']
+        Time.append(T)
+    return Time
 
 # print(GetMicroservicesMonitoringFiles(ApplicationData,Dados["MonitoringData"]))
-X = GetMicroservicesMonitoringFiles(ApplicationData,Dados["MonitoringData"])
-Y = ReadingDataFromMicroservices(X[0]["MMFilesApp"])
+# X = GetMicroservicesMonitoringFiles(ApplicationData,Dados["MonitoringData"])
+# Y = ReadingDataFromMicroservices(X[0]["MMFilesApp"])
 # print(Y)
 # print(X)
 # print(AnalysisOfAMicroservice(Y[0]))
-ApplicationAnalysis(X[0])
+# ApplicationAnalysis(X[0])

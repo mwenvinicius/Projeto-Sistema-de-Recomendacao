@@ -63,7 +63,7 @@ def generateService(serviceClass):
 
 # Main
 
-for numberOfProviders in range(5,10,1):
+for numberOfProviders in range(50,100,10):
     data = [] 
     for indexProvider in range(numberOfProviders):
         providerData = {"provider": "P"+ str(indexProvider), "servicesClass": []}  
@@ -79,7 +79,7 @@ for numberOfProviders in range(5,10,1):
             indexClass += 1
         data.append(providerData)
     data =  json.dumps(data, indent=5, sort_keys=False)
-    nomeArq = 'Providers'+ str(numberOfProviders)+'-'+ str(numberOfServices) +'.json'
+    nomeArq = 'NewProviders'+ str(numberOfProviders)+'-'+ str(numberOfServices) +'.json'
     arqFinal = open(nomeArq,'w')
     arqFinal.write(data)
     arqFinal.close()

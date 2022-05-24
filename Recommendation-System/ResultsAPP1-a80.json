@@ -1,0 +1,93 @@
+{
+     "App": "APP1-a80",
+     "Availability": "0.9801",
+     "Cost": "454.5",
+     "ResponseTime": "116.0",
+     "Percentage": {
+          "Ava": 0.0,
+          "Cost": 0.0,
+          "RT": 100.0
+     },
+     "Interval": {
+          "APPIntervals": [
+               [
+                    "2022-02-1900:00:00",
+                    "2022-02-2123:45:00"
+               ]
+          ]
+     },
+     "MS": [
+          {
+               "NameMS": "MS0",
+               "DnfAva": 0.0,
+               "DnfCost": 0.0,
+               "DnfRT": 100.0,
+               "DnfInterval": [
+                    [
+                         "20220219000000",
+                         "20220221234500"
+                    ]
+               ]
+          },
+          {
+               "NameMS": "MS1",
+               "DnfAva": 0.0,
+               "DnfCost": 0.0,
+               "DnfRT": 100.0,
+               "DnfInterval": [
+                    [
+                         "20220219000000",
+                         "20220221234500"
+                    ]
+               ]
+          },
+          {
+               "NameMS": "MS2",
+               "DnfAva": 0.0,
+               "DnfCost": 0.0,
+               "DnfRT": 100.0,
+               "DnfInterval": [
+                    [
+                         "20220219000000",
+                         "20220221234500"
+                    ]
+               ]
+          },
+          {
+               "NameMS": "MS3",
+               "DnfAva": 0.0,
+               "DnfCost": 0.0,
+               "DnfRT": 100.0,
+               "DnfInterval": [
+                    [
+                         "20220219000000",
+                         "20220221234500"
+                    ]
+               ]
+          },
+          {
+               "NameMS": "MS4",
+               "DnfAva": 0.0,
+               "DnfCost": 0.0,
+               "DnfRT": 100.0,
+               "DnfInterval": [
+                    [
+                         "20220219000000",
+                         "20220221234500"
+                    ]
+               ]
+          },
+          {
+               "NameMS": "MS5",
+               "DnfAva": 0.0,
+               "DnfCost": 0.0,
+               "DnfRT": 100.0,
+               "DnfInterval": [
+                    [
+                         "20220219000000",
+                         "20220221234500"
+                    ]
+               ]
+          }
+     ]
+}

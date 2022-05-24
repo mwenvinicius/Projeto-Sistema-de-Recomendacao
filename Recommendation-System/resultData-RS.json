@@ -1,0 +1,450 @@
+[
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-15.json",
+          "ScoreTotal": "1.72",
+          "Cost": "475.5",
+          "Ava": "1.0",
+          "RT": "103.5",
+          "Resultados": [
+               {
+                    "Item": 1,
+                    "Score": 0.508,
+                    "Cost": 56.5,
+                    "Ava": 1.0,
+                    "RT": 14.5,
+                    "MS": 0,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.304,
+                    "Cost": 76,
+                    "Ava": 1.0,
+                    "RT": 17,
+                    "MS": 1,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.302,
+                    "Cost": 81,
+                    "Ava": 1.0,
+                    "RT": 16,
+                    "MS": 2,
+                    "Prvd": "P35"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.021,
+                    "Cost": 79,
+                    "Ava": 1.0,
+                    "RT": 15,
+                    "MS": 3,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.282,
+                    "Cost": 77,
+                    "Ava": 1.0,
+                    "RT": 17,
+                    "MS": 4,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.303,
+                    "Cost": 75,
+                    "Ava": 1.0,
+                    "RT": 16,
+                    "MS": 5,
+                    "Prvd": "P21"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP200-10.json",
+          "ScoreTotal": "0.559",
+          "Cost": "492.0",
+          "Ava": "0.96059601",
+          "RT": "118.5",
+          "Resultados": [
+               {
+                    "Item": 1,
+                    "Score": 0.531,
+                    "Cost": 57.0,
+                    "Ava": 1.0,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P167"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.0,
+                    "Cost": 90,
+                    "Ava": 0.99,
+                    "RT": 22,
+                    "MS": 1,
+                    "Prvd": "P120"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.0,
+                    "Cost": 84,
+                    "Ava": 0.99,
+                    "RT": 20,
+                    "MS": 2,
+                    "Prvd": "P120"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.0,
+                    "Cost": 90,
+                    "Ava": 0.99,
+                    "RT": 22,
+                    "MS": 3,
+                    "Prvd": "P120"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.028,
+                    "Cost": 64,
+                    "Ava": 1.0,
+                    "RT": 15,
+                    "MS": 4,
+                    "Prvd": "P182"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.0,
+                    "Cost": 87,
+                    "Ava": 0.99,
+                    "RT": 17,
+                    "MS": 5,
+                    "Prvd": "P121"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-15.json",
+          "ScoreTotal": "1.72",
+          "Cost": "475.5",
+          "Ava": "1.0",
+          "RT": "103.5",
+          "Resultados": [
+               {
+                    "Item": 1,
+                    "Score": 0.508,
+                    "Cost": 56.5,
+                    "Ava": 1.0,
+                    "RT": 14.5,
+                    "MS": 0,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.304,
+                    "Cost": 76,
+                    "Ava": 1.0,
+                    "RT": 17,
+                    "MS": 1,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.302,
+                    "Cost": 81,
+                    "Ava": 1.0,
+                    "RT": 16,
+                    "MS": 2,
+                    "Prvd": "P35"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.021,
+                    "Cost": 79,
+                    "Ava": 1.0,
+                    "RT": 15,
+                    "MS": 3,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.282,
+                    "Cost": 77,
+                    "Ava": 1.0,
+                    "RT": 17,
+                    "MS": 4,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.303,
+                    "Cost": 75,
+                    "Ava": 1.0,
+                    "RT": 16,
+                    "MS": 5,
+                    "Prvd": "P21"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP200-10.json",
+          "ScoreTotal": "0.559",
+          "Cost": "492.0",
+          "Ava": "0.96059601",
+          "RT": "118.5",
+          "Resultados": [
+               {
+                    "Item": 1,
+                    "Score": 0.531,
+                    "Cost": 57.0,
+                    "Ava": 1.0,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P167"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.0,
+                    "Cost": 90,
+                    "Ava": 0.99,
+                    "RT": 22,
+                    "MS": 1,
+                    "Prvd": "P120"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.0,
+                    "Cost": 84,
+                    "Ava": 0.99,
+                    "RT": 20,
+                    "MS": 2,
+                    "Prvd": "P120"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.0,
+                    "Cost": 90,
+                    "Ava": 0.99,
+                    "RT": 22,
+                    "MS": 3,
+                    "Prvd": "P120"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.028,
+                    "Cost": 64,
+                    "Ava": 1.0,
+                    "RT": 15,
+                    "MS": 4,
+                    "Prvd": "P182"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.0,
+                    "Cost": 87,
+                    "Ava": 0.99,
+                    "RT": 17,
+                    "MS": 5,
+                    "Prvd": "P121"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-30.json",
+          "ScoreTotal": "1.4949999999999999",
+          "Cost": "475.5",
+          "Ava": "0.9801",
+          "RT": "110.5",
+          "Resultados": [
+               {
+                    "Item": 1,
+                    "Score": 0.539,
+                    "Cost": 54.5,
+                    "Ava": 1.0,
+                    "RT": 14.5,
+                    "MS": 0,
+                    "Prvd": "P36"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.286,
+                    "Cost": 82,
+                    "Ava": 1.0,
+                    "RT": 17,
+                    "MS": 1,
+                    "Prvd": "P36"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.059,
+                    "Cost": 76,
+                    "Ava": 0.99,
+                    "RT": 18,
+                    "MS": 2,
+                    "Prvd": "P9"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.075,
+                    "Cost": 71,
+                    "Ava": 0.99,
+                    "RT": 16,
+                    "MS": 3,
+                    "Prvd": "P33"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.25,
+                    "Cost": 88,
+                    "Ava": 1.0,
+                    "RT": 20,
+                    "MS": 4,
+                    "Prvd": "P21"
+               },
+               {
+                    "Item": 3,
+                    "Score": 0.286,
+                    "Cost": 82,
+                    "Ava": 1.0,
+                    "RT": 17,
+                    "MS": 5,
+                    "Prvd": "P36"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP80-10.json",
+          "ScoreTotal": "0.758",
+          "Cost": "451.5",
+          "Ava": "0.98000199",
+          "RT": "116.5",
+          "Resultados": [
+               {
+                    "Item": 1,
+                    "Score": 0.174,
+                    "Cost": 35.5,
+                    "Ava": 0.99,
+                    "RT": 15.5,
+                    "MS": 0,
+                    "Prvd": "P76"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.028,
+                    "Cost": 84,
+                    "Ava": 1.0,
+                    "RT": 21,
+                    "MS": 1,
+                    "Prvd": "P22"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.011,
+                    "Cost": 64,
+                    "Ava": 0.99,
+                    "RT": 14,
+                    "MS": 2,
+                    "Prvd": "P39"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.028,
+                    "Cost": 84,
+                    "Ava": 1.0,
+                    "RT": 19,
+                    "MS": 3,
+                    "Prvd": "P22"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.509,
+                    "Cost": 83,
+                    "Ava": 1.01,
+                    "RT": 17,
+                    "MS": 4,
+                    "Prvd": "P64"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.008,
+                    "Cost": 82,
+                    "Ava": 0.99,
+                    "RT": 20,
+                    "MS": 5,
+                    "Prvd": "P41"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-15.json",
+          "ScoreTotal": "1.72",
+          "Cost": "475.5",
+          "Ava": "1.0",
+          "RT": "103.5",
+          "Resultados": [
+               {
+                    "Item": 1,
+                    "Score": 0.508,
+                    "Cost": 56.5,
+                    "Ava": 1.0,
+                    "RT": 14.5,
+                    "MS": 0,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.304,
+                    "Cost": 76,
+                    "Ava": 1.0,
+                    "RT": 17,
+                    "MS": 1,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.302,
+                    "Cost": 81,
+                    "Ava": 1.0,
+                    "RT": 16,
+                    "MS": 2,
+                    "Prvd": "P35"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.021,
+                    "Cost": 79,
+                    "Ava": 1.0,
+                    "RT": 15,
+                    "MS": 3,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.282,
+                    "Cost": 77,
+                    "Ava": 1.0,
+                    "RT": 17,
+                    "MS": 4,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.303,
+                    "Cost": 75,
+                    "Ava": 1.0,
+                    "RT": 16,
+                    "MS": 5,
+                    "Prvd": "P21"
+               }
+          ]
+     }
+]

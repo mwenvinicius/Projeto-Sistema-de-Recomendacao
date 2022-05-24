@@ -1,0 +1,528 @@
+[
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-15.json",
+          "Features": [
+               {
+                    "Score": "0.508",
+                    "Cost": "56.5",
+                    "Availability": "1.0",
+                    "ResponseTime": "14.5",
+                    "Provider": "P45"
+               },
+               {
+                    "Score": "0.082",
+                    "Cost": "70",
+                    "Availability": "0.99",
+                    "ResponseTime": "19",
+                    "Provider": "P44"
+               },
+               {
+                    "Score": "0.279",
+                    "Cost": "75",
+                    "Availability": "1.0",
+                    "ResponseTime": "20",
+                    "Provider": "P24"
+               },
+               {
+                    "Score": "0.304",
+                    "Cost": "76",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P45"
+               },
+               {
+                    "Score": "0.316",
+                    "Cost": "80",
+                    "Availability": "1.0",
+                    "ResponseTime": "18",
+                    "Provider": "P35"
+               },
+               {
+                    "Score": "0.008",
+                    "Cost": "75",
+                    "Availability": "1.0",
+                    "ResponseTime": "19",
+                    "Provider": "P20"
+               },
+               {
+                    "Score": "0.302",
+                    "Cost": "81",
+                    "Availability": "1.0",
+                    "ResponseTime": "16",
+                    "Provider": "P35"
+               },
+               {
+                    "Score": "0.021",
+                    "Cost": "79",
+                    "Availability": "1.0",
+                    "ResponseTime": "15",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.316",
+                    "Cost": "80",
+                    "Availability": "1.0",
+                    "ResponseTime": "18",
+                    "Provider": "P35"
+               },
+               {
+                    "Score": "0.007",
+                    "Cost": "74",
+                    "Availability": "0.99",
+                    "ResponseTime": "20",
+                    "Provider": "P8"
+               },
+               {
+                    "Score": "0.282",
+                    "Cost": "77",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P45"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70",
+                    "Availability": "0.99",
+                    "ResponseTime": "19",
+                    "Provider": "P44"
+               },
+               {
+                    "Score": "0.303",
+                    "Cost": "75",
+                    "Availability": "1.0",
+                    "ResponseTime": "16",
+                    "Provider": "P21"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP200-10.json",
+          "Features": [
+               {
+                    "Score": "0.116",
+                    "Cost": "37.0",
+                    "Availability": "0.99",
+                    "ResponseTime": "17.0",
+                    "Provider": "P123"
+               },
+               {
+                    "Score": "0.531",
+                    "Cost": "57.0",
+                    "Availability": "1.0",
+                    "ResponseTime": "16.5",
+                    "Provider": "P167"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "90",
+                    "Availability": "0.99",
+                    "ResponseTime": "22",
+                    "Provider": "P120"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "84",
+                    "Availability": "0.99",
+                    "ResponseTime": "20",
+                    "Provider": "P120"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "90",
+                    "Availability": "0.99",
+                    "ResponseTime": "22",
+                    "Provider": "P120"
+               },
+               {
+                    "Score": "0.028",
+                    "Cost": "64",
+                    "Availability": "1.0",
+                    "ResponseTime": "15",
+                    "Provider": "P182"
+               },
+               {
+                    "Score": "0.5",
+                    "Cost": "77",
+                    "Availability": "1.01",
+                    "ResponseTime": "20",
+                    "Provider": "P52"
+               },
+               {
+                    "Score": "0.5",
+                    "Cost": "85",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P137"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "87",
+                    "Availability": "0.99",
+                    "ResponseTime": "17",
+                    "Provider": "P121"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-15.json",
+          "Features": [
+               {
+                    "Score": "0.508",
+                    "Cost": "56.5",
+                    "Availability": "1.0",
+                    "ResponseTime": "14.5",
+                    "Provider": "P45"
+               },
+               {
+                    "Score": "0.082",
+                    "Cost": "70",
+                    "Availability": "0.99",
+                    "ResponseTime": "19",
+                    "Provider": "P44"
+               },
+               {
+                    "Score": "0.279",
+                    "Cost": "75",
+                    "Availability": "1.0",
+                    "ResponseTime": "20",
+                    "Provider": "P24"
+               },
+               {
+                    "Score": "0.304",
+                    "Cost": "76",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P45"
+               },
+               {
+                    "Score": "0.316",
+                    "Cost": "80",
+                    "Availability": "1.0",
+                    "ResponseTime": "18",
+                    "Provider": "P35"
+               },
+               {
+                    "Score": "0.008",
+                    "Cost": "75",
+                    "Availability": "1.0",
+                    "ResponseTime": "19",
+                    "Provider": "P20"
+               },
+               {
+                    "Score": "0.302",
+                    "Cost": "81",
+                    "Availability": "1.0",
+                    "ResponseTime": "16",
+                    "Provider": "P35"
+               },
+               {
+                    "Score": "0.021",
+                    "Cost": "79",
+                    "Availability": "1.0",
+                    "ResponseTime": "15",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.316",
+                    "Cost": "80",
+                    "Availability": "1.0",
+                    "ResponseTime": "18",
+                    "Provider": "P35"
+               },
+               {
+                    "Score": "0.007",
+                    "Cost": "74",
+                    "Availability": "0.99",
+                    "ResponseTime": "20",
+                    "Provider": "P8"
+               },
+               {
+                    "Score": "0.282",
+                    "Cost": "77",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P45"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70",
+                    "Availability": "0.99",
+                    "ResponseTime": "19",
+                    "Provider": "P44"
+               },
+               {
+                    "Score": "0.303",
+                    "Cost": "75",
+                    "Availability": "1.0",
+                    "ResponseTime": "16",
+                    "Provider": "P21"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP200-10.json",
+          "Features": [
+               {
+                    "Score": "0.116",
+                    "Cost": "37.0",
+                    "Availability": "0.99",
+                    "ResponseTime": "17.0",
+                    "Provider": "P123"
+               },
+               {
+                    "Score": "0.531",
+                    "Cost": "57.0",
+                    "Availability": "1.0",
+                    "ResponseTime": "16.5",
+                    "Provider": "P167"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "90",
+                    "Availability": "0.99",
+                    "ResponseTime": "22",
+                    "Provider": "P120"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "84",
+                    "Availability": "0.99",
+                    "ResponseTime": "20",
+                    "Provider": "P120"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "90",
+                    "Availability": "0.99",
+                    "ResponseTime": "22",
+                    "Provider": "P120"
+               },
+               {
+                    "Score": "0.028",
+                    "Cost": "64",
+                    "Availability": "1.0",
+                    "ResponseTime": "15",
+                    "Provider": "P182"
+               },
+               {
+                    "Score": "0.5",
+                    "Cost": "77",
+                    "Availability": "1.01",
+                    "ResponseTime": "20",
+                    "Provider": "P52"
+               },
+               {
+                    "Score": "0.5",
+                    "Cost": "85",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P137"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "87",
+                    "Availability": "0.99",
+                    "ResponseTime": "17",
+                    "Provider": "P121"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-30.json",
+          "Features": [
+               {
+                    "Score": "0.532",
+                    "Cost": "52.5",
+                    "Availability": "1.0",
+                    "ResponseTime": "17.5",
+                    "Provider": "P6"
+               },
+               {
+                    "Score": "0.539",
+                    "Cost": "54.5",
+                    "Availability": "1.0",
+                    "ResponseTime": "14.5",
+                    "Provider": "P36"
+               },
+               {
+                    "Score": "0.065",
+                    "Cost": "76",
+                    "Availability": "0.99",
+                    "ResponseTime": "18",
+                    "Provider": "P33"
+               },
+               {
+                    "Score": "0.286",
+                    "Cost": "82",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P36"
+               },
+               {
+                    "Score": "0.059",
+                    "Cost": "76",
+                    "Availability": "0.99",
+                    "ResponseTime": "18",
+                    "Provider": "P9"
+               },
+               {
+                    "Score": "0.25",
+                    "Cost": "88",
+                    "Availability": "1.0",
+                    "ResponseTime": "20",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.075",
+                    "Cost": "71",
+                    "Availability": "0.99",
+                    "ResponseTime": "16",
+                    "Provider": "P33"
+               },
+               {
+                    "Score": "0.282",
+                    "Cost": "80",
+                    "Availability": "1.0",
+                    "ResponseTime": "21",
+                    "Provider": "P27"
+               },
+               {
+                    "Score": "0.286",
+                    "Cost": "82",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P36"
+               },
+               {
+                    "Score": "0.057",
+                    "Cost": "74",
+                    "Availability": "0.99",
+                    "ResponseTime": "20",
+                    "Provider": "P9"
+               },
+               {
+                    "Score": "0.25",
+                    "Cost": "88",
+                    "Availability": "1.0",
+                    "ResponseTime": "20",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.058",
+                    "Cost": "72",
+                    "Availability": "0.99",
+                    "ResponseTime": "17",
+                    "Provider": "P20"
+               },
+               {
+                    "Score": "0.095",
+                    "Cost": "73",
+                    "Availability": "0.99",
+                    "ResponseTime": "19",
+                    "Provider": "P48"
+               },
+               {
+                    "Score": "0.272",
+                    "Cost": "80",
+                    "Availability": "1.0",
+                    "ResponseTime": "21",
+                    "Provider": "P27"
+               },
+               {
+                    "Score": "0.286",
+                    "Cost": "82",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P36"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP80-10.json",
+          "Features": [
+               {
+                    "Score": "0.174",
+                    "Cost": "35.5",
+                    "Availability": "0.99",
+                    "ResponseTime": "15.5",
+                    "Provider": "P76"
+               },
+               {
+                    "Score": "0.52",
+                    "Cost": "56.5",
+                    "Availability": "1.0",
+                    "ResponseTime": "17.0",
+                    "Provider": "P22"
+               },
+               {
+                    "Score": "0.028",
+                    "Cost": "84",
+                    "Availability": "1.0",
+                    "ResponseTime": "21",
+                    "Provider": "P22"
+               },
+               {
+                    "Score": "0.011",
+                    "Cost": "64",
+                    "Availability": "0.99",
+                    "ResponseTime": "14",
+                    "Provider": "P39"
+               },
+               {
+                    "Score": "0.508",
+                    "Cost": "79",
+                    "Availability": "1.01",
+                    "ResponseTime": "18",
+                    "Provider": "P64"
+               },
+               {
+                    "Score": "0.006",
+                    "Cost": "82",
+                    "Availability": "0.99",
+                    "ResponseTime": "20",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.028",
+                    "Cost": "84",
+                    "Availability": "1.0",
+                    "ResponseTime": "19",
+                    "Provider": "P22"
+               },
+               {
+                    "Score": "0.03",
+                    "Cost": "63",
+                    "Availability": "1.0",
+                    "ResponseTime": "17",
+                    "Provider": "P60"
+               },
+               {
+                    "Score": "0.5",
+                    "Cost": "77",
+                    "Availability": "1.01",
+                    "ResponseTime": "20",
+                    "Provider": "P52"
+               },
+               {
+                    "Score": "0.509",
+                    "Cost": "83",
+                    "Availability": "1.01",
+                    "ResponseTime": "17",
+                    "Provider": "P64"
+               },
+               {
+                    "Score": "0.008",
+                    "Cost": "82",
+                    "Availability": "0.99",
+                    "ResponseTime": "20",
+                    "Provider": "P41"
+               }
+          ]
+     }
+]

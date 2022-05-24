@@ -1,0 +1,98 @@
+[
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-15.json",
+          "TimeList": [
+               727,
+               801,
+               818,
+               690,
+               781,
+               827,
+               738,
+               703,
+               754,
+               727
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP200-10.json",
+          "TimeList": [
+               1097,
+               1105,
+               1260,
+               1119,
+               1221,
+               1330,
+               1370,
+               1348,
+               1247,
+               1182
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-15.json",
+          "TimeList": [
+               716,
+               693,
+               712,
+               721,
+               737,
+               756,
+               863,
+               847,
+               761,
+               884
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP200-10.json",
+          "TimeList": [
+               1247,
+               1304,
+               1304,
+               1155,
+               1152,
+               1233,
+               1331,
+               1220,
+               1346,
+               1358
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP50-30.json",
+          "TimeList": [
+               12431,
+               10906,
+               10916,
+               10916,
+               10974,
+               11003,
+               10945,
+               10900,
+               10949,
+               11915
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "../Providers/ProvidersGKP80-10.json",
+          "TimeList": [
+               474,
+               517,
+               559,
+               353,
+               389,
+               346,
+               372,
+               413,
+               361,
+               386
+          ]
+     }
+]
