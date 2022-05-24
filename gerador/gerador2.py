@@ -14,12 +14,12 @@ from horarios import *
 
 class Gerador():
 
-    def __init__(self, indice=0):
+    def __init__(self, indice=0, pasta=None):
         self.date_initial = None #........ Data inicial do monitoramento
         self.date_final = None #.......... Data final do monitoramento
         self.name_app = None #............ Nome do app;
         self.microsservices = None #...... Microsserviços extraídos do arquivo result;
-        self.pasta = None #............... Pasta onde será salvo o caminho;
+        self.pasta = pasta #.............. Pasta onde será salvo o caminho;
         self.case = 0 #................... Caso a ser gerado que será selecionado na função selectCase()
         self.result = None #.............. Aqui estarão os dados do arquivo resultData.json 
         self.intervalo = 15 #............. Intervalo em minutos, setado em 15 minutos.
@@ -81,10 +81,12 @@ class Gerador():
         print('\n\n')
 
     def abrirPastaPadrao(self):
-        if os.path.exists('dados') == False:
-            os.makedirs('dados')
+        pasta = self.pasta
 
-        pasta2 = (f'./dados/{self.name_app}')
+        if os.path.exists(pasta) == False:
+            os.makedirs(pasta)
+
+        pasta2 = (f'./{pasta}/{self.name_app}')
 
         if os.path.exists(pasta2) == False:
             os.makedirs(pasta2)
@@ -320,7 +322,7 @@ class Gerador():
                 aux = avancaTempo(aux, self.intervalo)
             
             saveFinalFile(nome, lido=arq)
-            print()
+            """ print() """
 
     def gerar(self, arq, ms, data):
 
@@ -363,13 +365,9 @@ class Gerador():
         elif self.case == 2:
             self.arquivos['Case'] = [2, 'Pior Caso']
         elif self.case == 3:
-            self.arquivos['Case'] = [3, 'Caso Aleatório']
+            self.arquivos['Case'] = [3, 'Caso Aleatorio']
         elif self.case == 4:
             self.arquivos['Case'] = [4, 'Requisito selecionado']
 
         saveFinalFile(nameARQ=nome, lido=self.arquivos)
 
-
-
-""" if __name__ == '__main__':
-    Monitoramento() """
