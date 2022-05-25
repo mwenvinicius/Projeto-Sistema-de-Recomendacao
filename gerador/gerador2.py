@@ -151,10 +151,11 @@ class Gerador():
         print('Caso 1 = Todos os requisitos são atendidos.')
         print('Caso 2 = Nenhum dos requisitos são atendidos.')
         print('Caso 3 = Caso Aleatório')
-        print('Caso 4 = Escolher qual requisito não atenderá')
+        print('Caso 4 = Escolher qual requisito nao atendera')
+        print('Caso 5 = Escolher qual microsserviço nao atendera')
         print('-'*60)
 
-        while(self.case < 1 or self.case > 4):
+        while(self.case < 1 or self.case > 5):
             self.case = int(input('Digite o caso desejado: '))
         
         print('-'*60)
@@ -166,7 +167,7 @@ class Gerador():
             self.casos_basicos()
         elif self.case == 4:
             self.selecionarRequisito()
-        else:
+        elif self.case == 5:
             self.selecionarMicroServ()
 
     def casos_basicos(self):
@@ -304,8 +305,41 @@ class Gerador():
         
         return limite
 
+
     def selecionarMicroServ(self):
-        pass
+        print('-'*75)
+        print('Selecione o microsservico: ')
+        print('-'*75)
+        for i in self.microsservices:
+            print(f"Microsservice: {i['MS']} - Prvd: {i['Prvd']}")
+        print('-'*75)
+        op = input('Selecione (caso deseje mais de 1 separe por vírgulas): ')
+
+        lista = op.split(',')
+        selecionados = []
+
+        for j in lista:
+            selecionados.append(int(j))
+        
+        print(selecionados)
+        self.casos_microsservico(selecionados)
+        
+
+    def casos_microsservico(self, selecionados):
+        for indice, i in enumerate(self.microsservices):
+            i['limitesSel'] = self.limitarMS(selecionados, indice, i)
+
+
+    def limitarMS(self, selecionados, indice, ms):
+        
+        if ms['MS'] in selecionados:
+            retorno = self.piorCaso(indice)
+        else:
+            retorno = self.melhorCaso(indice)
+        
+        return retorno
+
+
 
     def montar(self):
         for indice, i in enumerate(self.microsservices):
@@ -368,6 +402,8 @@ class Gerador():
             self.arquivos['Case'] = [3, 'Caso Aleatorio']
         elif self.case == 4:
             self.arquivos['Case'] = [4, 'Requisito selecionado']
+        elif self.case == 5:
+            self.arquivos['Case'] = [5, 'Microsservico selecionado']
 
         saveFinalFile(nameARQ=nome, lido=self.arquivos)
 
