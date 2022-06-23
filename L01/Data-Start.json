@@ -1,0 +1,21 @@
+{
+     "Applications": [
+          "./Applications/Application1-cost.json",
+          "./Applications/Application1-rt.json",
+          "./Applications/Application1-ability.json",
+          "./Applications/Application1-acr.json"
+     ],
+     "Providers": [
+          "./Providers/Providers50-5-PGS.json"
+     ],
+     "Iterations": [
+          "./Iterations/APP1-iterations-1.json",
+          "./Iterations/APP3-iterations-1.json",
+          "./Iterations/APP4-iterations-1.json",
+          "./Iterations/APP2-iterations-1.json",
+          "./Iterations/APP5-iterations-1.json"
+     ],
+     "LinksProviders": [
+          "./Links-Providers/linksProviders50.json"
+     ]
+}

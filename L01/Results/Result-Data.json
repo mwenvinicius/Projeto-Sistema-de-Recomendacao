@@ -1,0 +1,668 @@
+[
+     {
+          "App": "APP1-cost510",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.4300000000000002",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.287,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.273,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.87,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-cost600",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.4300000000000002",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.287,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.273,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.87,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-cost690",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.4300000000000002",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.287,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.273,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.87,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-cost780",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.4300000000000002",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.287,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.273,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.87,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-cost960",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.4300000000000002",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.287,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.273,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.87,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-rt4",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.026",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.274,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.137,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.615,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-rt5",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.026",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.274,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.137,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.615,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-rt6",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.026",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.274,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.137,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.615,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-rt7",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.026",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.274,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.137,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.615,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "0.819",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.187,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.137,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.495,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a82",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "0.819",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.187,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.137,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.495,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a84",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "0.876",
+          "Cost": "263.5",
+          "Ava": "0.680862",
+          "RT": "60.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.187,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 4,
+                    "Score": 0.194,
+                    "Cost": 94,
+                    "Ava": 0.86,
+                    "RT": 17,
+                    "MS": 1,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.495,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a86",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "0.998",
+          "Cost": "272.5",
+          "Ava": "0.680862",
+          "RT": "63.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.187,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.316,
+                    "Cost": 106,
+                    "Ava": 0.86,
+                    "RT": 22,
+                    "MS": 1,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.495,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a88",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.437",
+          "Cost": "267.5",
+          "Ava": "0.7367360000000001",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.187,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.5,
+                    "Cost": 114,
+                    "Ava": 0.92,
+                    "RT": 23,
+                    "MS": 1,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.75,
+                    "Cost": 72,
+                    "Ava": 0.88,
+                    "RT": 21,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-acr1",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.09",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.249,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.182,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.659,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-acr2",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.09",
+          "Cost": "260.5",
+          "Ava": "0.680862",
+          "RT": "62.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.249,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 2,
+                    "Score": 0.182,
+                    "Cost": 87,
+                    "Ava": 0.86,
+                    "RT": 19,
+                    "MS": 1,
+                    "Prvd": "P12"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.659,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-acr3",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.167",
+          "Cost": "263.5",
+          "Ava": "0.680862",
+          "RT": "60.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.249,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 4,
+                    "Score": 0.259,
+                    "Cost": 94,
+                    "Ava": 0.86,
+                    "RT": 17,
+                    "MS": 1,
+                    "Prvd": "P45"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.659,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-acr4",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "ScoreTotal": "1.328",
+          "Cost": "272.5",
+          "Ava": "0.680862",
+          "RT": "63.5",
+          "Resultados": [
+               {
+                    "Item": 2,
+                    "Score": 0.249,
+                    "Cost": 72.5,
+                    "Ava": 0.91,
+                    "RT": 16.5,
+                    "MS": 0,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.42,
+                    "Cost": 106,
+                    "Ava": 0.86,
+                    "RT": 22,
+                    "MS": 1,
+                    "Prvd": "P1"
+               },
+               {
+                    "Item": 1,
+                    "Score": 0.659,
+                    "Cost": 85,
+                    "Ava": 0.87,
+                    "RT": 23,
+                    "MS": 2,
+                    "Prvd": "P16"
+               }
+          ]
+     }
+]

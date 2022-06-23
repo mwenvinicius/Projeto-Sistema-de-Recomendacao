@@ -1,0 +1,1062 @@
+[
+     {
+          "App": "APP1-cost510",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.287",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.273",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.286",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.87",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-cost600",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.287",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.273",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.286",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.87",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-cost690",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.287",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.273",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.286",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.87",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-cost780",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.287",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.273",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.286",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.87",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-cost960",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.287",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.273",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.286",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.87",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-rt4",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.274",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.137",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.143",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.615",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-rt5",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.274",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.137",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.143",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.615",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-rt6",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.274",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.137",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.143",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.615",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-rt7",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.274",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.137",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.143",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.615",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a80",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.187",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.08",
+                    "Cost": "86",
+                    "Availability": "0.85",
+                    "ResponseTime": "19",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.137",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.143",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.495",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a82",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.187",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.08",
+                    "Cost": "86",
+                    "Availability": "0.85",
+                    "ResponseTime": "19",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.137",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.143",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.495",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a84",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.187",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.08",
+                    "Cost": "86",
+                    "Availability": "0.85",
+                    "ResponseTime": "19",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.137",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.178",
+                    "Cost": "91",
+                    "Availability": "0.84",
+                    "ResponseTime": "25",
+                    "Provider": "P17"
+               },
+               {
+                    "Score": "0.194",
+                    "Cost": "94",
+                    "Availability": "0.86",
+                    "ResponseTime": "17",
+                    "Provider": "P45"
+               },
+               {
+                    "Score": "0.25",
+                    "Cost": "109",
+                    "Availability": "0.85",
+                    "ResponseTime": "21",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.495",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a86",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.187",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.071",
+                    "Cost": "102",
+                    "Availability": "0.86",
+                    "ResponseTime": "24",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.316",
+                    "Cost": "106",
+                    "Availability": "0.86",
+                    "ResponseTime": "22",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.361",
+                    "Cost": "109",
+                    "Availability": "0.88",
+                    "ResponseTime": "23",
+                    "Provider": "P29"
+               },
+               {
+                    "Score": "0.495",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-a88",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.187",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.253",
+                    "Cost": "71",
+                    "Availability": "0.88",
+                    "ResponseTime": "26",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.338",
+                    "Cost": "100",
+                    "Availability": "0.88",
+                    "ResponseTime": "28",
+                    "Provider": "P32"
+               },
+               {
+                    "Score": "0.5",
+                    "Cost": "114",
+                    "Availability": "0.92",
+                    "ResponseTime": "23",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.75",
+                    "Cost": "72",
+                    "Availability": "0.88",
+                    "ResponseTime": "21",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-acr1",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.249",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.107",
+                    "Cost": "86",
+                    "Availability": "0.85",
+                    "ResponseTime": "19",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.182",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.19",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.659",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-acr2",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.249",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.107",
+                    "Cost": "86",
+                    "Availability": "0.85",
+                    "ResponseTime": "19",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.182",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.19",
+                    "Cost": "109",
+                    "Availability": "0.82",
+                    "ResponseTime": "26",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.659",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-acr3",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.249",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "85",
+                    "Availability": "0.84",
+                    "ResponseTime": "26",
+                    "Provider": "P10"
+               },
+               {
+                    "Score": "0.107",
+                    "Cost": "86",
+                    "Availability": "0.85",
+                    "ResponseTime": "19",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.182",
+                    "Cost": "87",
+                    "Availability": "0.86",
+                    "ResponseTime": "19",
+                    "Provider": "P12"
+               },
+               {
+                    "Score": "0.237",
+                    "Cost": "91",
+                    "Availability": "0.84",
+                    "ResponseTime": "25",
+                    "Provider": "P17"
+               },
+               {
+                    "Score": "0.259",
+                    "Cost": "94",
+                    "Availability": "0.86",
+                    "ResponseTime": "17",
+                    "Provider": "P45"
+               },
+               {
+                    "Score": "0.333",
+                    "Cost": "109",
+                    "Availability": "0.85",
+                    "ResponseTime": "21",
+                    "Provider": "P41"
+               },
+               {
+                    "Score": "0.659",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     },
+     {
+          "App": "APP1-acr4",
+          "Provider": "./Providers/Providers50-5-PGS.json",
+          "MatAll": [
+               {
+                    "Score": "0.0",
+                    "Cost": "60.0",
+                    "Availability": "0.9",
+                    "ResponseTime": "17.0",
+                    "Provider": "P4"
+               },
+               {
+                    "Score": "0.0",
+                    "Cost": "70.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "19.0",
+                    "Provider": "P16"
+               },
+               {
+                    "Score": "0.249",
+                    "Cost": "72.5",
+                    "Availability": "0.91",
+                    "ResponseTime": "16.5",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.095",
+                    "Cost": "102",
+                    "Availability": "0.86",
+                    "ResponseTime": "24",
+                    "Provider": "P21"
+               },
+               {
+                    "Score": "0.42",
+                    "Cost": "106",
+                    "Availability": "0.86",
+                    "ResponseTime": "22",
+                    "Provider": "P1"
+               },
+               {
+                    "Score": "0.481",
+                    "Cost": "109",
+                    "Availability": "0.88",
+                    "ResponseTime": "23",
+                    "Provider": "P29"
+               },
+               {
+                    "Score": "0.659",
+                    "Cost": "85",
+                    "Availability": "0.87",
+                    "ResponseTime": "23",
+                    "Provider": "P16"
+               }
+          ]
+     }
+]

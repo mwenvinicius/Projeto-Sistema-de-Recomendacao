@@ -1,0 +1,502 @@
+[{"app": "APP3",
+  "iterationsAPP":
+           [
+              {
+                    "nameTerm":"Term1",
+                    "numOfFlow":2,
+                    "sequences":[{
+                    "nameseq":"Flow1-1",
+                    "probability":0.5,
+                    "dataSeq":[{
+                      "microservice": "MS13",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1}],
+                        "linksOutput":[
+                          {"lco": "lco1","fr": 1}]
+                      },
+                      {
+                      "microservice": "MS23",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1}]
+                      },
+                      {
+                      "microservice": "MS43",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1}],
+                        "linksOutput": [
+                          ]
+                      }]
+                    },
+                    {
+                    "nameseq":"Flow2-1",
+                    "probability":0.5,
+                    "dataSeq":[{
+                      "microservice": "MS13",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1}],
+                        "linksOutput": [
+                          {"lco": "lco3","fr": 1}]
+                      },
+                      {
+                      "microservice": "MS33",
+                      "linksInput": [
+                          {"lci": "lci3","fr": 1}],
+                        "linksOutput": [
+                          {"lco": "lco4","fr": 1}]
+                      },
+                      {
+                      "microservice": "MS53",
+                      "linksInput": [
+                          {"lci": "lci4","fr": 1}],
+                        "linksOutput": []
+                      }]
+                    }]
+                   },
+                   {
+                    "nameTerm":"Term2",
+                    "numOfFlow":2,
+                    "sequences":[{ 
+                    "nameseq":"Flow1-2",
+                    "probability":0.5,
+                    "dataSeq":[{ 
+                      "microservice": "MS63",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1}],
+                      "linksOutput": [
+                          {"lco": "lco1","fr": 1}]
+                     },
+                     {
+                     "microservice": "MS73",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1}],
+                      "linksOutput": [{"lco": "lco2","fr": 1}]
+                     },
+                     {
+                     "microservice": "MS83",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1}],
+                        "linksOutput": [{"lco": "lco3","fr": 1}]
+                     },
+                     {
+                     "microservice": "MS123",
+                      "linksInput": [
+                          {"lci": "lci3","fr": 1}],
+                        "linksOutput": []
+                     }] 
+                   },
+                   { 
+                    "nameseq":"Flow2-2",
+                    "probability":0.5,
+                    "dataSeq":[{ 
+                      "microservice": "MS63",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1}],
+                        "linksOutput": [
+                          {"lco": "lco4","fr": 1}]
+                     },
+                     {
+                     "microservice": "MS93",
+                      "linksInput": [
+                          {"lci": "lci4","fr": 1}],
+                        "linksOutput": [{"lco": "lco5","fr": 1}]
+                     },
+                     {
+                     "microservice": "MS103",
+                      "linksInput": [
+                          {"lci": "lci5","fr": 1}],
+                        "linksOutput": [{"lco": "lco6","fr": 1}]
+                     },  
+                     {
+                     "microservice": "MS113",
+                      "linksInput": [
+                          {"lci": "lci6","fr": 1}],
+                        "linksOutput": []
+                     }] 
+                   }]
+                }
+  ],
+  "iterationsMS": [
+           {"microservice":"MS13",
+            "terms": [{
+                    "nameTerm":"Term11",
+                    "numOfFlow":2,
+                    "sequences":[{
+                    "nameseq":"Flow1-11",
+                    "probability":0.5,
+                    "dataSeq":[{
+                      "service": "MS13-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                      "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS13-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                   },
+                   {
+                    "nameseq":"Flow2-11",
+                    "probability":0.5,
+                    "dataSeq":[{
+                      "service": "MS13-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                      "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS13-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                   }]
+           }]
+           },
+           {"microservice":"MS23",
+            "terms": [{
+                    "nameTerm":"Term12",
+                    "numOfFlow":1,
+                    "sequences":[{
+                    "nameseq":"Flow1-12",
+                    "probability":1,
+                    "dataSeq":[{
+                      "service": "MS23-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS23-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS23-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                 }]
+           }]
+           },
+           {"microservice":"MS33",
+            "terms": [{
+                    "nameTerm":"Term13",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                    "nameseq":"Flow1-13",
+                    "probability":1,
+                    "dataSeq":[{ 
+                      "service": "MS33-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS33-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS33-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                }]
+            }]
+            },
+           {"microservice":"MS43",
+            "terms": [{
+                    "nameTerm":"Term14",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{   
+                     "nameseq":"Flow1-14",
+                     "probability":1,
+                     "dataSeq":[{             
+                      "service": "MS43-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS43-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS43-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                 }]
+              }]
+           },
+           {"microservice":"MS53",
+            "terms": [{
+                    "nameTerm":"Term15",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                     "nameseq":"Flow1-15",
+                     "probability":1,
+                     "dataSeq":[{ 
+                      "service": "MS53-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                     },
+                    {
+                      "service": "MS53-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS53-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }]
+                }] 
+             }]
+           },
+           {"microservice":"MS63",
+            "terms": [{
+                    "nameTerm":"Term16",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                     "nameseq":"Flow1-16",
+                     "probability":1,
+                     "dataSeq":[{ 
+                      "service": "MS63-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS63-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS63-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                }]
+            }]
+        },
+        {"microservice":"MS73",
+            "terms": [{
+                    "nameTerm":"Term17",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                     "nameseq":"Flow1-17",
+                     "probability":1,
+                     "dataSeq":[{ 
+                      "service": "MS73-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS73-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS73-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                }]
+            }]
+        },
+        {"microservice":"MS83",
+            "terms": [{
+                    "nameTerm":"Term18",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                     "nameseq":"Flow1-18",
+                     "probability":1,
+                     "dataSeq":[{ 
+                      "service": "MS83-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS83-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS83-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                }]
+            }]
+        },
+        {"microservice":"MS93",
+            "terms": [{
+                    "nameTerm":"Term19",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                     "nameseq":"Flow1-19",
+                     "probability":1,
+                     "dataSeq":[{ 
+                      "service": "MS93-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS93-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS93-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                }]
+            }]
+        },
+        {"microservice":"MS103",
+            "terms": [{
+                    "nameTerm":"Term19",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                     "nameseq":"Flow1-19",
+                     "probability":1,
+                     "dataSeq":[{ 
+                      "service": "MS103-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS103-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS103-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                }]
+            }]
+        },
+        {"microservice":"MS113",
+            "terms": [{
+                    "nameTerm":"Term19",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                     "nameseq":"Flow1-19",
+                     "probability":1,
+                     "dataSeq":[{ 
+                      "service": "MS113-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS113-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS113-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                }]
+            }]
+        },
+        {"microservice":"MS123",
+            "terms": [{
+                    "nameTerm":"Term19",
+                    "numOfFlow":1,
+                    "probability":1,
+                    "sequences":[{ 
+                     "nameseq":"Flow1-19",
+                     "probability":1,
+                     "dataSeq":[{ 
+                      "service": "MS123-1",
+                      "linksInput": [
+                          {"lci": "lci0","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco1","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS123-2",
+                      "linksInput": [
+                          {"lci": "lci1","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": [
+                          {"lco": "lco2","fr": 1,"ava":100,"cost":0,"delay":2}]
+                    },
+                    {
+                      "service": "MS123-3",
+                      "linksInput": [
+                          {"lci": "lci2","fr": 1,"ava":100,"cost":0,"delay":2}],
+                        "linksOutput": []
+                    }] 
+                }]
+            }]
+        }
+        ]
+}]
