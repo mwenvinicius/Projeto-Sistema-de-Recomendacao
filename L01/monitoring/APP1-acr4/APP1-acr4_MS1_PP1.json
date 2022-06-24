@@ -1,0 +1,685 @@
+{
+     "NameFile": "./../L01/monitoring/APP1-acr4/APP1-acr4_MS1_PP1.json",
+     "NameAPP": "APP1-acr4",
+     "NameOfMicroService": 1,
+     "Provider": "P1",
+     "Availability": 0.86,
+     "Cost": 106,
+     "ResponseTime": 22,
+     "Data_Inicial": "2022-05-20 00:00:00",
+     "Data_Final": "2022-05-21 00:00:00",
+     "Monitoring": [
+          {
+               "Date": "2022-05-20",
+               "Time": "00:00:00",
+               "Availability": 0.03,
+               "Cost": 41.15,
+               "ResponseTime": 23.45
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "00:15:00",
+               "Availability": 0.53,
+               "Cost": 23.63,
+               "ResponseTime": 1.19
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "00:30:00",
+               "Availability": 0.13,
+               "Cost": 188.86,
+               "ResponseTime": 1.87
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "00:45:00",
+               "Availability": 0.22,
+               "Cost": 138.05,
+               "ResponseTime": 22.61
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "01:00:00",
+               "Availability": 0.5,
+               "Cost": 150.67,
+               "ResponseTime": 18.95
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "01:15:00",
+               "Availability": 0.61,
+               "Cost": 49.01,
+               "ResponseTime": 26.08
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "01:30:00",
+               "Availability": 0.28,
+               "Cost": 40.79,
+               "ResponseTime": 12.96
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "01:45:00",
+               "Availability": 0.78,
+               "Cost": 53.26,
+               "ResponseTime": 42.79
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "02:00:00",
+               "Availability": 0.77,
+               "Cost": 65.81,
+               "ResponseTime": 31.66
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "02:15:00",
+               "Availability": 0.02,
+               "Cost": 125.09,
+               "ResponseTime": 23.57
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "02:30:00",
+               "Availability": 0.63,
+               "Cost": 11.11,
+               "ResponseTime": 10.68
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "02:45:00",
+               "Availability": 0.49,
+               "Cost": 13.96,
+               "ResponseTime": 28.82
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "03:00:00",
+               "Availability": 0.49,
+               "Cost": 89.16,
+               "ResponseTime": 35.66
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "03:15:00",
+               "Availability": 0.47,
+               "Cost": 75.23,
+               "ResponseTime": 31.7
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "03:30:00",
+               "Availability": 0.2,
+               "Cost": 187.68,
+               "ResponseTime": 33.76
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "03:45:00",
+               "Availability": 0.27,
+               "Cost": 161.79,
+               "ResponseTime": 34.37
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "04:00:00",
+               "Availability": 0.78,
+               "Cost": 45.63,
+               "ResponseTime": 39.28
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "04:15:00",
+               "Availability": 0.2,
+               "Cost": 68.63,
+               "ResponseTime": 14.66
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "04:30:00",
+               "Availability": 0.28,
+               "Cost": 85.54,
+               "ResponseTime": 9.83
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "04:45:00",
+               "Availability": 0.58,
+               "Cost": 21.56,
+               "ResponseTime": 11.5
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "05:00:00",
+               "Availability": 0.92,
+               "Cost": 163.1,
+               "ResponseTime": 21.7
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "05:15:00",
+               "Availability": 0.77,
+               "Cost": 183.08,
+               "ResponseTime": 32.68
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "05:30:00",
+               "Availability": 0.66,
+               "Cost": 150.48,
+               "ResponseTime": 10.14
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "05:45:00",
+               "Availability": 0.49,
+               "Cost": 22.66,
+               "ResponseTime": 31.38
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "06:00:00",
+               "Availability": 0.15,
+               "Cost": 210.93,
+               "ResponseTime": 40.04
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "06:15:00",
+               "Availability": 0.12,
+               "Cost": 179.64,
+               "ResponseTime": 7.28
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "06:30:00",
+               "Availability": 0.94,
+               "Cost": 66.34,
+               "ResponseTime": 22.82
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "06:45:00",
+               "Availability": 0.87,
+               "Cost": 65.91,
+               "ResponseTime": 35.17
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "07:00:00",
+               "Availability": 0.22,
+               "Cost": 178.94,
+               "ResponseTime": 0.09
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "07:15:00",
+               "Availability": 0.09,
+               "Cost": 63.61,
+               "ResponseTime": 15.26
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "07:30:00",
+               "Availability": 0.0,
+               "Cost": 194.63,
+               "ResponseTime": 18.24
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "07:45:00",
+               "Availability": 0.14,
+               "Cost": 17.99,
+               "ResponseTime": 35.17
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "08:00:00",
+               "Availability": 0.31,
+               "Cost": 73.16,
+               "ResponseTime": 22.94
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "08:15:00",
+               "Availability": 0.32,
+               "Cost": 203.54,
+               "ResponseTime": 34.58
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "08:30:00",
+               "Availability": 0.85,
+               "Cost": 16.36,
+               "ResponseTime": 9.22
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "08:45:00",
+               "Availability": 0.71,
+               "Cost": 132.09,
+               "ResponseTime": 34.82
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "09:00:00",
+               "Availability": 0.79,
+               "Cost": 159.55,
+               "ResponseTime": 16.45
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "09:15:00",
+               "Availability": 0.33,
+               "Cost": 30.82,
+               "ResponseTime": 7.25
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "09:30:00",
+               "Availability": 0.11,
+               "Cost": 185.67,
+               "ResponseTime": 27.6
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "09:45:00",
+               "Availability": 0.77,
+               "Cost": 148.88,
+               "ResponseTime": 3.89
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "10:00:00",
+               "Availability": 0.4,
+               "Cost": 154.38,
+               "ResponseTime": 39.21
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "10:15:00",
+               "Availability": 0.13,
+               "Cost": 45.97,
+               "ResponseTime": 4.0
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "10:30:00",
+               "Availability": 0.03,
+               "Cost": 167.68,
+               "ResponseTime": 22.65
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "10:45:00",
+               "Availability": 0.78,
+               "Cost": 209.51,
+               "ResponseTime": 22.99
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "11:00:00",
+               "Availability": 0.48,
+               "Cost": 84.36,
+               "ResponseTime": 38.62
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "11:15:00",
+               "Availability": 0.99,
+               "Cost": 144.32,
+               "ResponseTime": 20.43
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "11:30:00",
+               "Availability": 0.55,
+               "Cost": 103.89,
+               "ResponseTime": 30.99
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "11:45:00",
+               "Availability": 0.19,
+               "Cost": 38.43,
+               "ResponseTime": 32.96
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "12:00:00",
+               "Availability": 0.36,
+               "Cost": 89.25,
+               "ResponseTime": 24.91
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "12:15:00",
+               "Availability": 0.58,
+               "Cost": 83.04,
+               "ResponseTime": 15.65
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "12:30:00",
+               "Availability": 0.1,
+               "Cost": 40.53,
+               "ResponseTime": 19.03
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "12:45:00",
+               "Availability": 0.16,
+               "Cost": 135.09,
+               "ResponseTime": 0.66
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "13:00:00",
+               "Availability": 0.14,
+               "Cost": 114.88,
+               "ResponseTime": 10.6
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "13:15:00",
+               "Availability": 0.33,
+               "Cost": 48.49,
+               "ResponseTime": 12.02
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "13:30:00",
+               "Availability": 0.25,
+               "Cost": 39.25,
+               "ResponseTime": 35.05
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "13:45:00",
+               "Availability": 0.76,
+               "Cost": 198.62,
+               "ResponseTime": 31.27
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "14:00:00",
+               "Availability": 0.03,
+               "Cost": 131.42,
+               "ResponseTime": 8.19
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "14:15:00",
+               "Availability": 0.39,
+               "Cost": 197.35,
+               "ResponseTime": 13.72
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "14:30:00",
+               "Availability": 0.74,
+               "Cost": 17.21,
+               "ResponseTime": 11.24
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "14:45:00",
+               "Availability": 0.11,
+               "Cost": 86.5,
+               "ResponseTime": 34.84
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "15:00:00",
+               "Availability": 0.82,
+               "Cost": 137.28,
+               "ResponseTime": 18.59
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "15:15:00",
+               "Availability": 0.83,
+               "Cost": 185.26,
+               "ResponseTime": 3.29
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "15:30:00",
+               "Availability": 0.98,
+               "Cost": 107.8,
+               "ResponseTime": 33.8
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "15:45:00",
+               "Availability": 0.63,
+               "Cost": 32.23,
+               "ResponseTime": 12.02
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "16:00:00",
+               "Availability": 0.97,
+               "Cost": 24.53,
+               "ResponseTime": 29.26
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "16:15:00",
+               "Availability": 0.74,
+               "Cost": 77.48,
+               "ResponseTime": 12.15
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "16:30:00",
+               "Availability": 0.86,
+               "Cost": 148.46,
+               "ResponseTime": 12.24
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "16:45:00",
+               "Availability": 0.2,
+               "Cost": 162.37,
+               "ResponseTime": 31.42
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "17:00:00",
+               "Availability": 0.81,
+               "Cost": 136.02,
+               "ResponseTime": 29.89
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "17:15:00",
+               "Availability": 0.86,
+               "Cost": 30.62,
+               "ResponseTime": 15.54
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "17:30:00",
+               "Availability": 0.79,
+               "Cost": 193.62,
+               "ResponseTime": 25.77
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "17:45:00",
+               "Availability": 0.81,
+               "Cost": 144.05,
+               "ResponseTime": 39.94
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "18:00:00",
+               "Availability": 0.11,
+               "Cost": 191.0,
+               "ResponseTime": 43.94
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "18:15:00",
+               "Availability": 0.31,
+               "Cost": 92.78,
+               "ResponseTime": 26.37
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "18:30:00",
+               "Availability": 0.96,
+               "Cost": 43.42,
+               "ResponseTime": 36.84
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "18:45:00",
+               "Availability": 0.59,
+               "Cost": 37.82,
+               "ResponseTime": 34.0
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "19:00:00",
+               "Availability": 0.8,
+               "Cost": 119.02,
+               "ResponseTime": 18.95
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "19:15:00",
+               "Availability": 0.48,
+               "Cost": 34.07,
+               "ResponseTime": 10.15
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "19:30:00",
+               "Availability": 0.19,
+               "Cost": 19.84,
+               "ResponseTime": 29.51
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "19:45:00",
+               "Availability": 0.03,
+               "Cost": 75.07,
+               "ResponseTime": 39.3
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "20:00:00",
+               "Availability": 0.41,
+               "Cost": 0.47,
+               "ResponseTime": 36.51
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "20:15:00",
+               "Availability": 0.31,
+               "Cost": 211.62,
+               "ResponseTime": 25.21
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "20:30:00",
+               "Availability": 0.41,
+               "Cost": 140.57,
+               "ResponseTime": 23.32
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "20:45:00",
+               "Availability": 0.27,
+               "Cost": 22.62,
+               "ResponseTime": 8.91
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "21:00:00",
+               "Availability": 0.22,
+               "Cost": 8.43,
+               "ResponseTime": 23.02
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "21:15:00",
+               "Availability": 0.34,
+               "Cost": 39.74,
+               "ResponseTime": 15.75
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "21:30:00",
+               "Availability": 0.5,
+               "Cost": 115.34,
+               "ResponseTime": 5.73
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "21:45:00",
+               "Availability": 0.49,
+               "Cost": 60.11,
+               "ResponseTime": 27.26
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "22:00:00",
+               "Availability": 0.68,
+               "Cost": 188.62,
+               "ResponseTime": 1.82
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "22:15:00",
+               "Availability": 0.06,
+               "Cost": 103.41,
+               "ResponseTime": 39.08
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "22:30:00",
+               "Availability": 0.3,
+               "Cost": 60.67,
+               "ResponseTime": 37.71
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "22:45:00",
+               "Availability": 0.7,
+               "Cost": 58.78,
+               "ResponseTime": 41.59
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "23:00:00",
+               "Availability": 0.19,
+               "Cost": 208.25,
+               "ResponseTime": 1.07
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "23:15:00",
+               "Availability": 0.91,
+               "Cost": 1.27,
+               "ResponseTime": 18.55
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "23:30:00",
+               "Availability": 0.03,
+               "Cost": 144.0,
+               "ResponseTime": 39.01
+          },
+          {
+               "Date": "2022-05-20",
+               "Time": "23:45:00",
+               "Availability": 0.32,
+               "Cost": 23.63,
+               "ResponseTime": 11.44
+          }
+     ]
+}

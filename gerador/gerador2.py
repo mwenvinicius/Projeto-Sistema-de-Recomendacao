@@ -14,19 +14,20 @@ from horarios import *
 
 class Gerador():
 
-    def __init__(self, indice=0, pasta=None):
-        self.date_initial = None #........ Data inicial do monitoramento
-        self.date_final = None #.......... Data final do monitoramento
-        self.name_app = None #............ Nome do app;
-        self.microsservices = None #...... Microsserviços extraídos do arquivo result;
-        self.pasta = pasta #.............. Pasta onde será salvo o caminho;
-        self.case = 0 #................... Caso a ser gerado que será selecionado na função selectCase()
-        self.result = None #.............. Aqui estarão os dados do arquivo resultData.json 
-        self.intervalo = 15 #............. Intervalo em minutos, setado em 15 minutos.
-        self.indice = indice #............ Indice onde o app se encontra no vetor presente no arquivo results
+    def __init__(self, indice=0, pasta=None, intervalo=15, result=None, case=0, date_initial=None, date_final=None):
+        self.date_initial = date_initial #...... Data inicial do monitoramento
+        self.date_final = date_final #.......... Data final do monitoramento
+        self.name_app = None #.................. Nome do app;
+        self.microsservices = None #............ Microsserviços extraídos do arquivo result;
+        self.pasta = pasta #.................... Pasta onde será salvo o caminho;
+        self.case = case #...................... Caso a ser gerado que será selecionado na função selectCase()
+        self.result = result #.................. Aqui estarão os dados do arquivo resultData.json 
+        self.intervalo = intervalo #............ Intervalo em minutos, setado em 15 minutos.
+        self.indice = indice #.................. Indice onde o app se encontra no vetor presente no arquivo results
         self.arquivos = {
             'Pasta': '',
-            'NomesArqs': [] } #........... Aqui serão salvos as informações sobre os arquivos de salvamento.
+            'NomesArqs': [] 
+        } #..................................... Aqui serão salvos as informações sobre os arquivos de salvamento.
         
         #self.sequencia() #................ Faz a chamada das funções.
 
@@ -46,7 +47,7 @@ class Gerador():
         
     def abreArq(self):
         # Função que abre o arquivo result e transfere seus dados aos atributos da classe
-        self.result = loadFile('resultData.json')[self.indice]
+        #self.result = loadFile('resultData.json')[self.indice]
         self.name_app = self.result["App"]
         self.microsservices = [ i for i in self.result['Resultados'] ] # For que coloca os Micro
 
@@ -305,7 +306,6 @@ class Gerador():
         
         return limite
 
-
     def selecionarMicroServ(self):
         print('-'*75)
         print('Selecione o microsservico: ')
@@ -324,11 +324,9 @@ class Gerador():
         print(selecionados)
         self.casos_microsservico(selecionados)
         
-
     def casos_microsservico(self, selecionados):
         for indice, i in enumerate(self.microsservices):
             i['limitesSel'] = self.limitarMS(selecionados, indice, i)
-
 
     def limitarMS(self, selecionados, indice, ms):
         
@@ -338,8 +336,6 @@ class Gerador():
             retorno = self.melhorCaso(indice)
         
         return retorno
-
-
 
     def montar(self):
         for indice, i in enumerate(self.microsservices):

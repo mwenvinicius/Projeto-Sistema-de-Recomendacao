@@ -13,7 +13,6 @@ def sequencia(app):
     app.vaiProCaso()
     app.salvarArqGestao()
 
-
 def abrirApps(results, pasta):
     apps = []
     for i in range(len(results)):
@@ -46,8 +45,6 @@ def selecionarApp(results):
     print('-'*75)
     return retorno
 
-
-
 def menu(results, pasta):
     print('-'*75)
     op = int(input('Deseja gerar para todos os apps (1-SIM;2-NAO): '))
@@ -59,7 +56,6 @@ def menu(results, pasta):
         retorno = abrirApps(results2, pasta)
 
     return retorno
-
 
 
 pasta = input('Digite o nome da pasta onde serão salvo os arquivos: ')

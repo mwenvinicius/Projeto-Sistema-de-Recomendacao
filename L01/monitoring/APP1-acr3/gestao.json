@@ -1,0 +1,12 @@
+{
+     "Pasta": "./../L01/monitoring/APP1-acr3",
+     "NomesArqs": [
+          "./../L01/monitoring/APP1-acr3/APP1-acr3_MS0_PP1.json",
+          "./../L01/monitoring/APP1-acr3/APP1-acr3_MS1_PP45.json",
+          "./../L01/monitoring/APP1-acr3/APP1-acr3_MS2_PP16.json"
+     ],
+     "Case": [
+          3,
+          "Caso Aleatorio"
+     ]
+}
